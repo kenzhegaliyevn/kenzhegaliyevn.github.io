@@ -9,7 +9,7 @@
 	    right: 200px;
 	    width: 65%;
 	    z-index: 2;
-	    
+
 	}
 
 	.menu_icon {
@@ -77,6 +77,27 @@
 	}
 	.btn_wrap .btn_transparent {
 	    margin-left: 0;    
+	}
+	.list h3 {
+		font-size: 28px;
+	}
+	.list h1 {
+		font-size: 50px;
+	}
+	.list_item {
+		display: block;
+		margin: 10px auto 0;
+	}
+
+	.img_wrap {
+		height: 200px;
+		width: 200px;
+		margin-top: 70px;
+	}
+
+	.img_wrap img {
+		margin-top: 55px;
+		width: 50%;
 	}
 }
 
