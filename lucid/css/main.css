@@ -258,5 +258,54 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .details {
-    padding-top: 75px;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.details_left {
+    width: 40%;
+    height: 600px;
+    float: left;
+    background: url(../img/iphones_bg.png) no-repeat;
+    background-size: 420px;
+}
+
+.details_right {
+    float: right;
+    width: 60%;
+    padding-top: 45px;
+}
+
+.details_right h3 {
+    padding-left: 110px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "SourceSansProBold", sans-serif;
+    color: #008ed6;
+    padding-bottom: 15px;
+
+}
+.details_right h1 {
+    padding-left: 110px;
+    font-size: 36px;
+    font-family: "SourceSansProSemiBold", sans-serif;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.details_right h1::after {
+    content: '';
+    position: absolute;
+    background: url(../img/bottom_line.png) no-repeat;
+    height: 4px;
+    width: 6%;
+    display: block;
+    bottom: -23px;
+}
+
+.details_right p {
+    padding-left: 110px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #b4b4b4;
 }
