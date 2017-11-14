@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .list_item {
-    min-width: 230px;
+    width: 230px;
     margin-top: 73px;
     display: inline-block;
     padding: 0 20px;    
