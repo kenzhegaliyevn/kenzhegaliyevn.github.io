@@ -5,8 +5,9 @@
 	.top_menu {
 		display: none;		
 	    position: absolute;
-	    top: 40px;
+	    top: 110px;
 	    right: 200px;
+	    width: 55%;
 	}
 
 	.menu_icon {
@@ -22,7 +23,12 @@
 	    min-width: 295px;
 	    text-align: right;
 	    background-color: #1C242C;
-	    padding: 15px;
+	    padding: 25px;
+	    border-bottom: 1px solid #000;
+	}
+	
+	.top_menu a {
+	    font-size: 30px;		
 	}
 
 	.top_menu a.active {
