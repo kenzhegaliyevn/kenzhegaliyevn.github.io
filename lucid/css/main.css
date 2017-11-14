@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .top_menu {
     float: right;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .top_menu ul {
@@ -174,12 +174,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header_right {
     width: 60%;
+    height: 555px;
     float: right;
-    position: relative;   
+    background: url(../img/iphones_bg.png) no-repeat;
+    background-position: 70% 40px;
+    background-size: 420px;
 }
 
-.header_right img {
-    position: absolute;
-    top: 30px;
-    right: 110px;
-}
+// .header_right img {
+//     position: absolute;
+//     top: 30px;
+//     right: 110px;
+// }
