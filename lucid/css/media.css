@@ -13,7 +13,7 @@
 		display: block;
 		position: absolute;
 		right: 150px;
-		top: 50px;
+		top: 60px;
 	}
 
 	.top_menu ul li {
@@ -27,6 +27,19 @@
 
 	.top_menu a.active {
 	    border-bottom: none;
+	}
+
+	.logo {
+		font-size: 75px;
+	}
+
+	.logo p {
+		font-size: 20px;
+	}
+
+	.menu_icon svg {
+		width: 100px;
+		height: 100px;
 	}
 }
 
