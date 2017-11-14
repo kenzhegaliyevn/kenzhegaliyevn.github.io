@@ -7,7 +7,7 @@
 	    position: absolute;
 	    top: 110px;
 	    right: 200px;
-	    width: 55%;
+	    width: 65%;
 	    z-index: 2;
 	}
 
@@ -19,7 +19,7 @@
 	}
 
 	.header {
-		min-height: 880px;
+		min-height: 1100px;
 	}
 
 	.top_menu ul li {
@@ -30,7 +30,6 @@
 	    background-color: #1C242C;
 	    padding: 25px;
 	    border-bottom: 1px solid #000;
-	    z-index: 2;
 	}
 	
 	.top_menu a {
@@ -59,7 +58,7 @@
 	}
 
 	.header_left {
-		width: 35%;
+		width: 100%;
 	}
 
 	.header_left h1 {
@@ -67,12 +66,7 @@
 	}
 
 	.header_right {
-		width: 65%;
-	}
-
-	.header_right img {
-		width: 80%;
-		right: -40px;
+		display: none;
 	}
 
 	.btn_wrap .btn {
