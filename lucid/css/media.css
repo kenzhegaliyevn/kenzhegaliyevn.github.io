@@ -8,6 +8,7 @@
 	    top: 110px;
 	    right: 200px;
 	    width: 55%;
+	    z-index: 2;
 	}
 
 	.menu_icon {
@@ -15,6 +16,10 @@
 		position: absolute;
 		right: 150px;
 		top: 60px;
+	}
+
+	.header {
+		min-height: 880px;
 	}
 
 	.top_menu ul li {
@@ -25,6 +30,7 @@
 	    background-color: #1C242C;
 	    padding: 25px;
 	    border-bottom: 1px solid #000;
+	    z-index: 2;
 	}
 	
 	.top_menu a {
@@ -46,6 +52,36 @@
 	.menu_icon svg {
 		width: 100px;
 		height: 100px;
+	}
+
+	.header_wrap {
+		padding-top: 210px;
+	}
+
+	.header_left {
+		width: 35%;
+	}
+
+	.header_left h1 {
+		font-size: 25px;
+	}
+
+	.header_right {
+		width: 65%;
+	}
+
+	.header_right img {
+		width: 80%;
+		right: -40px;
+	}
+
+	.btn_wrap .btn {
+	    display: block;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+	.btn_wrap .btn_transparent {
+	    margin-left: 0;    
 	}
 }
 

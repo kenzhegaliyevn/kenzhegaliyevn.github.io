@@ -10,6 +10,11 @@ body {
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
 .hidden {
     display: none;
 }
@@ -26,7 +31,7 @@ body {
 
 .header {
     background-image: url(../img/top_bg.jpg);
-    min-height: 620px;
+    min-height: 680px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -107,3 +112,74 @@ body {
 	display: none;
 }
 
+.header_wrap {
+	padding-top: 125px;
+	color: #fff;
+}
+
+.header_left {
+	float: left;
+    width: 40%;
+}
+
+.header_left h3{
+	text-transform: uppercase;
+	font-family: "SourceSansProBold", sans-serif;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #008ed6;
+	letter-spacing: 1px;
+}
+
+.header_left h1{
+    font-family: "SourceSansProRegular", sans-serif;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.header_left p{
+    font-family: "SourceSansProRegular", sans-serif;
+    font-size: 18px;
+    margin-top: 37px;
+    color: #999999;
+}
+
+.btn_wrap {
+    margin-top: 60px;
+}
+
+.btn {
+    padding: 20px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: "SourceSansProBold", sans-serif;
+    font-size: 14px;
+}
+
+.btn_blue {
+    background-color: #008ed6;
+    border-radius: 4px;
+}
+
+.btn_transparent {
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+.btn_wrap .btn_transparent {
+    margin-left: 20px;    
+}
+
+.header_right {
+    width: 60%;
+    float: right;
+    position: relative;   
+}
+
+.header_right img {
+    position: absolute;
+    top: 30px;
+    right: 110px;
+}
