@@ -308,4 +308,45 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 1px;
     font-size: 18px;
     color: #b4b4b4;
+    padding-bottom: 40px;
+}
+
+.details_right span {
+    padding-left: 135px;
+    display: block;
+    font-size: 18px;
+    font-family: "SourceSansProRegular", sans-serif;
+    position: relative;
+}
+
+span.first_item::before,
+span.second_item::before,
+span.third_item::before,
+span.fourth_item::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 17px;
+    top: 5px;
+    left: 110px;
+}
+
+span.first_item::before {
+    width: 20px;
+    background: url("../img/logo_cup.png") no-repeat;
+}
+
+span.second_item::before {
+    background: url("../img/logo_mouse.png") no-repeat;
+    left: 113px;
+}
+
+span.third_item::before {
+    background: url("../img/logo_energy.png") no-repeat;
+    left: 113px;
+}
+
+span.fourth_item::before {
+    width: 20px;
+    background: url("../img/logo_speedometr.png") no-repeat;
 }
