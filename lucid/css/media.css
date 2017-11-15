@@ -116,6 +116,17 @@
 		width: 100%;
 	}
 
+	.details_right h3, 
+	.details_right h1,
+	.details_right p {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.details_right h1::after {
+		left: 50%;
+	}
+
 	.details_right span {
 	    font-size: 30px;
 	    padding-left: 200px;
@@ -136,6 +147,23 @@
 	span.third_item::before {
 	    left: 145px;
 	    background-size: 30px;
+	}
+
+	.grey_left {
+		width: 100%;
+	}
+	.grey_right {
+		display: none;
+		
+	}
+	.grey_left h3, 
+	.grey_left h1,
+	.grey_left p {
+		padding-left: 0;
+		text-align: center;
+	}
+	.grey_left h1::after {
+		left: 50%;
 	}
 
 /* Medium Devices, Desktops */
