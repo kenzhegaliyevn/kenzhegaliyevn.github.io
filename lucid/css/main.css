@@ -376,6 +376,7 @@ span.fourth_item::before {
     height: 600px;
     background: url(../img/iphone_bg.png) no-repeat;
     background-position: 130px 95px;
+    background-size: 650px;
 }
 
 .grey_left h3 {
