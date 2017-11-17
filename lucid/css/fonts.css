@@ -9,7 +9,7 @@
     font-family: "SourceSansProIt";
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/SourceSansProIt/SourceSansProIt.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProIt/SourceSansProIt.woff") format("woff"), url("../fonts/SourceSansProIt/SourceSansProIt.ttf") format("truetype");
+    src: url("../fonts/SourceSansProIt/SourceSansProItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProIt/SourceSansProItalic.woff") format("woff"), url("../fonts/SourceSansProIt/SourceSansProItalic.ttf") format("truetype");
 }
 
 @font-face {
