@@ -433,10 +433,10 @@ span.fourth_item::before {
 
 .quality {
     padding-top: 65px;
-    padding-bottom: 100px;
 }
 
-.quality_header h3 {
+.quality_header h3,
+.pricings_header h3 {
     text-align: center;
     text-transform: uppercase;
     font-family: "SourceSansProBold", sans-serif;
@@ -445,7 +445,8 @@ span.fourth_item::before {
     letter-spacing: 1px;
 }
 
-.quality_header h1 {
+.quality_header h1, 
+.pricings_header h1{
     text-align: center;
     font-family: "SourceSansProSemiBold", sans-serif;
     font-size: 36px;
@@ -454,7 +455,8 @@ span.fourth_item::before {
     position: relative;
 }
 
-.quality_header h1::after {
+.quality_header h1::after, 
+.pricings_header h1::after {
     content: '';
     position: absolute;
     background: url(../img/bottom_line.png) no-repeat;
@@ -523,4 +525,56 @@ span.fourth_item::before {
 
 .slider .owl-controls .owl-dot.active {
     background-color: #fff;
+}
+
+.dark {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #15141a;
+    color: #fff;
+}
+
+.dark h1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    vertical-align: middle;
+    font-family: "SourceSansProLight", sans-serif;
+}
+
+.dark h1 span {
+    font-family: "SourceSansProSemiBold", sans-serif;
+}
+
+.dark .btn_wrap {
+    float: right;
+    margin-top: 20px;
+}
+
+.dark .btn_wrap .btn_transparent {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.pricings {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pricings_header h1 {
+    color: #000;
+}
+
+.item_wrap {
+    // text-align: center;
+}
+
+.item {
+    width: 18%;
+    display: inline-block;
+    margin: 70px 30px;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+    padding: 30px 40px;
 }
