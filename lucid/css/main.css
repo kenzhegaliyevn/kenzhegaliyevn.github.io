@@ -360,7 +360,8 @@ span.fourth_item::before {
     background: url("../img/logo_speedometr.png") no-repeat;
 }
 
-.grey {
+.grey,
+.contact {
     background: #f2f2f2;
 }
 
@@ -436,7 +437,8 @@ span.fourth_item::before {
 }
 
 .quality_header h3,
-.pricings_header h3 {
+.pricings_header h3,
+.contact_header h3 {
     text-align: center;
     text-transform: uppercase;
     font-family: "SourceSansProBold", sans-serif;
@@ -446,7 +448,8 @@ span.fourth_item::before {
 }
 
 .quality_header h1, 
-.pricings_header h1{
+.pricings_header h1, 
+.contact_header h1 {
     text-align: center;
     font-family: "SourceSansProSemiBold", sans-serif;
     font-size: 36px;
@@ -456,7 +459,8 @@ span.fourth_item::before {
 }
 
 .quality_header h1::after, 
-.pricings_header h1::after {
+.pricings_header h1::after,
+.contact_header h1::after {
     content: '';
     position: absolute;
     background: url(../img/bottom_line.png) no-repeat;
@@ -653,4 +657,89 @@ span.fourth_item::before {
     background-color: #44ace1;
     color: #fff;
     border: 1px solid #44ace1;
+}
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact_header {
+    text-align: center;
+}
+
+.contact_header h1 {
+    color: #000;
+}
+
+.contact_info {
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.contact_item {
+    display: inline-block;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 60px;
+    height: 130px;
+    vertical-align: top;
+    
+}
+
+.contact_item p {
+    font-family: "SourceSansProRegular", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.form {
+    width: 770px;
+    height: 270px;
+    margin: 70px auto;
+    background-color: #15141a;
+    padding: 60px 65px 40px;
+}
+
+.form_left {
+    float: left;
+    width: 45%;
+}
+
+.form_right {
+    float: right;   
+    width: 50%;
+    display: block;
+    position: relative;
+    
+}
+
+.form_left input {
+    display: block;
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    border-radius: 3px;
+    color: #444348;
+    border: 1px solid #444348;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.form_right textarea {
+    border: 1px solid #444348;
+    background-color: transparent;
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 18px;
+    height: 173px;
+}
+
+.form_right .btn_blue {
+    position: absolute;
+    top: 210px;
+    right: -20px;
 }

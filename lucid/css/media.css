@@ -195,13 +195,28 @@
 		font-size: 25px;
 	}
 
-	.pricings_header h1::after {
+	.pricings_header h1::after, 
+	.contact_header h1::after {
 		width: 8%;
 	}
 
 	.item {
 		width: 70%;
 	}
+
+	.form {
+		width: 570px;
+	}
+
+	.contact_item {
+	    padding-top: 100px;
+	}
+
+	.contact_item p {
+	    font-size: 28px;
+	    margin-top: 10px;
+	}
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
