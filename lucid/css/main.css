@@ -662,8 +662,6 @@ span.fourth_item::before {
 .contact {
     padding-top: 60px;
     padding-bottom: 60px;
-    position: relative;
-    
 }
 
 .contact_header {
@@ -702,6 +700,8 @@ span.fourth_item::before {
     margin: 70px auto;
     background-color: #15141a;
     padding: 60px 65px 40px;
+    position: relative;
+    
     z-index: 2;
 }
 
@@ -746,12 +746,20 @@ span.fourth_item::before {
     right: -20px;
 }
 
+.map {
+    position: relative;
+}
+
 .map_section {
     background-image: url(../img/map.png);
     min-height: 500px;
     background-size: cover;
     width: 100%;
     position: absolute;
-    top: 810px;
+    top: -200px;
     left: 0;
+}
+
+footer {
+    background-color: #15141a;
 }
