@@ -578,9 +578,11 @@ span.fourth_item::before {
     border-radius: 3px;
     padding-top: 30px;
     padding-bottom: 30px;
-    // padding-left: 20px;
-    // padding-right: 20px;
     text-align: center;
+    text-decoration--webkit-transition: 500ms ease-out .25s;
+    text-decoration--moz-transition: 500ms ease-out .25s;
+    text-decoration--o-transition: 500ms ease-out .25s;
+    text-decoration-transition: 500ms ease-out .25s;
     
 }
 
@@ -632,4 +634,23 @@ span.fourth_item::before {
 
 .item_btn .btn_transparent {
     color: #44ace1;
+}
+
+.item:hover .item_price {
+    background-color: #44ace1;
+    color: #fff;
+}
+
+.item:hover .item_price p {
+    color: #fff;
+}
+
+.item:hover .item_header h2 {
+    color: #44ace1;
+}
+
+.item:hover .btn_transparent {
+    background-color: #44ace1;
+    color: #fff;
+    border: 1px solid #44ace1;
 }
