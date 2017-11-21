@@ -662,6 +662,8 @@ span.fourth_item::before {
 .contact {
     padding-top: 60px;
     padding-bottom: 60px;
+    position: relative;
+    
 }
 
 .contact_header {
@@ -686,7 +688,6 @@ span.fourth_item::before {
     padding-top: 60px;
     height: 130px;
     vertical-align: top;
-    
 }
 
 .contact_item p {
@@ -701,11 +702,12 @@ span.fourth_item::before {
     margin: 70px auto;
     background-color: #15141a;
     padding: 60px 65px 40px;
+    z-index: 2;
 }
 
 .form_left {
     float: left;
-    width: 45%;
+    width: 50%;
 }
 
 .form_right {
@@ -718,7 +720,7 @@ span.fourth_item::before {
 
 .form_left input {
     display: block;
-    width: 100%;
+    width: 90%;
     padding-top: 18px;
     padding-left: 18px;
     padding-bottom: 18px;
@@ -742,4 +744,14 @@ span.fourth_item::before {
     position: absolute;
     top: 210px;
     right: -20px;
+}
+
+.map_section {
+    background-image: url(../img/map.png);
+    min-height: 500px;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 810px;
+    left: 0;
 }
