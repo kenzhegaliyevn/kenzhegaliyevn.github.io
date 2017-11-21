@@ -195,6 +195,14 @@
 		font-size: 25px;
 	}
 
+	.pricings_header h1::after {
+		width: 8%;
+	}
+
+	.item {
+		width: 70%;
+	}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 }
