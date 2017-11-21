@@ -217,6 +217,13 @@
 	    margin-top: 10px;
 	}
 
+	.contact {
+		height: 1200px;
+	}
+
+	footer p {
+		font-size: 8px;
+	}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {

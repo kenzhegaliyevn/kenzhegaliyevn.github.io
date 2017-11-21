@@ -662,6 +662,7 @@ span.fourth_item::before {
 .contact {
     padding-top: 60px;
     padding-bottom: 60px;
+    height: 700px;
 }
 
 .contact_header {
@@ -697,11 +698,10 @@ span.fourth_item::before {
 .form {
     width: 770px;
     height: 270px;
-    margin: 70px auto;
+    margin: 100px auto;
     background-color: #15141a;
     padding: 60px 65px 40px;
-    position: relative;
-    
+    position: relative;    
     z-index: 2;
 }
 
@@ -751,15 +751,35 @@ span.fourth_item::before {
 }
 
 .map_section {
+    width: 100%;
+    height: 370px;
     background-image: url(../img/map.png);
     min-height: 500px;
     background-size: cover;
-    width: 100%;
-    position: absolute;
-    top: -200px;
-    left: 0;
 }
 
 footer {
     background-color: #15141a;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    text-align: center;
+    color: #444348;
+}
+
+footer p {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "SourceSansProSemiBold", sans-serif;
+}
+
+.icons a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    
+}
+
+.icons a:hover svg{
+    fill: #44ace1;
 }
