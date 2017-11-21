@@ -167,6 +167,34 @@
 		left: 50%;
 	}
 
+	.quality {
+		padding-bottom: 65px;
+	}
+
+	.dark {
+		text-align: center;
+	}
+
+	.dark h1 {
+		font-size: 56px;
+	}
+
+	.dark .btn_wrap {
+		float: none;
+		display: inline-block;
+		
+	}
+
+	.dark .btn_blue {
+		display: unset;
+		font-size: 25px;
+	}
+
+	.dark .btn_transparent {
+		display: unset;		
+		font-size: 25px;
+	}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 }
