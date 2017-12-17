@@ -2,7 +2,45 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.main_head {
+		position: relative;
+	}
 
+	.header_logo img {
+		width: 60%;
+		padding-top: 25px;
+		margin: 0 auto;
+	}
+
+	.header_title p {
+		font-size: 27px;
+	}
+
+	.header_title h4 {
+		font-size: 24px;
+	}
+
+	.header_title h2 {
+		font-size: 35px;
+	}
+
+	.main_menu ul li {
+	    display: block;
+	}
+
+	.main_menu {
+	    background-color: #4e6284;
+	    position: absolute;
+	    top: 169px;
+	    right: 7%;
+	    font-size: 26px;
+	    z-index: 1;		
+	}
+
+	.main_menu a {
+		border-bottom: 1px solid #445270;
+	    padding: 18px 145px;
+	}
 }
 
 /* Medium Devices, Desktops */
