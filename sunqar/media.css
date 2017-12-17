@@ -84,6 +84,18 @@
 	.text_item {
 		padding: 0 50px;
 	}
+
+	.landing_page {
+		text-align: center;		
+	}
+	.lp1 {
+		width: 100%;
+	}
+	.lp_header {
+		padding: 0;
+		text-align: center;
+		font-size: 30px;
+	}
 }
 
 /* Medium Devices, Desktops */
