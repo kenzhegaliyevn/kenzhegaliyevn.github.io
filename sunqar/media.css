@@ -57,6 +57,33 @@
 	.header_title a {
 		font-size: 10px;
 	}
+
+	.result {
+		padding-left: 0;
+		padding-top: 150px;
+		text-align: center;
+	}
+
+	.result h4 {
+		font-size: 35px;
+	}
+
+	.result_items {
+		text-align: center;	
+	}
+
+
+	.first_logo,
+	.second_logo,
+	.third_logo,
+	.fourth_logo {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.text_item {
+		padding: 0 50px;
+	}
 }
 
 /* Medium Devices, Desktops */
