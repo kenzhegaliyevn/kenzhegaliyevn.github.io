@@ -7,6 +7,68 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+
 .hidden {
 	display: none;
 }
+
+.main_head {
+    background-image: url("img/background.png");
+    min-height: 1200px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.main_menu {
+    color: #fff;
+}
+
+.main_menu a {
+    color: #fff;
+    padding: 18px 14px;
+    display: block;
+    font-family: "HelveticaNeueCyrMedium", sans-serif;
+}
+
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main_menu ul li {
+    display: inline-block;
+}
+
+.tabs {
+    background-image: url("img/bgi.png");
+    z-index: 100;
+}
+
+.header_title {
+	margin-left: 70px;
+	padding-top: 35px;
+	color: #fff;
+}
+
+.header_title h2 {
+	font-size: 63px;
+	font-family: "SourceSansProRegular", sans-serif;
+}
+
+.header_title h4 {
+	font-size: 43px;
+	font-family: "HelveticaNeueCyrBold", sans-serif;
+	padding-bottom: 60px;
+}
+
+.header_title p {
+	font-family: "HelveticaNeueCyrLight", sans-serif;
+	font-size: 50px;
+}
+
