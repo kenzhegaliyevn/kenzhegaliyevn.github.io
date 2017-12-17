@@ -12,6 +12,11 @@
 		margin: 0 auto;
 	}
 
+	.header_title {
+		margin: 0 auto;
+	    text-align: center;
+	}
+	
 	.header_title p {
 		font-size: 27px;
 	}
