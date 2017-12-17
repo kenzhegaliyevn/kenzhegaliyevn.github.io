@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .tabs {
-    background-image: url("img/bgi.png");
+    background-image: url("img/bgi-min.png");
     z-index: 100;
 }
 
