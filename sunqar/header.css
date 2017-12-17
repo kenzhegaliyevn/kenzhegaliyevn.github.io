@@ -64,15 +64,30 @@ h1, h2, h3, h4, h5, h6, p {
 .header_title h4 {
 	font-size: 43px;
 	font-family: "HelveticaNeueCyrBold", sans-serif;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .header_title p {
 	font-family: "HelveticaNeueCyrLight", sans-serif;
 	font-size: 50px;
+	padding-bottom: 70px;
 }
 
 .menu_icon svg {
 	display: none;
-			
 }
+
+.header_title a {
+	padding: 18px;
+	color: #fff;
+	background-color: #f6ea2b;
+	border-radius: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 54px;
+	text-decoration: none;
+	-webkit-box-shadow: 10px 9px 8px -3px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow: 10px 9px 8px -3px rgba(50, 50, 50, 0.25);
+	box-shadow: 10px 9px 8px -3px rgba(50, 50, 50, 0.25);
+}
+

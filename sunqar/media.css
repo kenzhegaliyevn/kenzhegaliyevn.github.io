@@ -53,6 +53,10 @@
 		top: 30px;
 		right: 30px;
 	}
+
+	.header_title a {
+		font-size: 10px;
+	}
 }
 
 /* Medium Devices, Desktops */
