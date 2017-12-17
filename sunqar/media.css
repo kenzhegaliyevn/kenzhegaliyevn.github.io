@@ -96,6 +96,37 @@
 		text-align: center;
 		font-size: 30px;
 	}
+
+	.client_left {
+		text-align: center;
+		padding: 19px;
+	}
+	.client_item {
+		width: 100%;
+
+	}
+	.sample img {
+		width: 100%;
+	}
+	
+	.grey_angular,
+	.grey {
+		width: auto;
+	}
+
+	.price img {
+		width: 100%;
+		padding: 0 35px;
+		margin-left: 0;
+	}
+
+	.price p {
+		font-size: 20px;
+    	padding: 0 30px;		
+	}
+	.price_logo {
+	    background-position: 35px 20px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -148,6 +179,9 @@
 @media only screen and (max-width : 360px) {
 	.main_menu a {
 	    padding: 18px 50px;
+	}
+	.main_menu {
+		right: 9px;
 	}
 }
 
