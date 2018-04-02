@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5</title>
+    <style>
+    .section,
+    .article,
+    .nav {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .section h1,
+    .section h2,
+    .section h3,
+    .section h4,
+    .section h5,
+    .section h6 {
+        text-decoration: underline;
+    }
+
+    .aside {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .figure {
+        border: 1px solid black;
+        margin: 0;
+        text-align: center;
+    }
+
+    .figure img {
+        width: 100%;
+    }
+
+	.input {
+		margin-bottom: 10px;
+	}
+
+    .input {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        width: 150px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .input-types {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .input-types input {
+        display: block;
+        margin-top: 10px
+    }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        This is section tag. Block element
+        <h1>h1 title. Block element</h1>
+        <h2>h1 title. Block element</h2>
+        <h3>h1 title. Block element</h3>
+        <h4>h1 title. Block element</h4>
+        <h5>h1 title. Block element</h5>
+        <h6>h1 title. Block element</h6>
+    </section>
+    <article class="article">
+        This is article tag. Block element
+    </article>
+    <aside class="aside">
+        This is aside. Block element.
+    </aside>
+    <nav class="nav">
+        This is nav tag. Block element.
+        <br> 'a' is inline element
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#">Link4</a>
+    </nav>
+    <figure class="figure">
+        This is figure element. Block element
+        <img src="http://yaslit.ru/wp-content/uploads/2016/10/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B5-%D1%84%D0%B0%D0%BA%D1%82%D1%8B-%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5-Google-1024x576.png" alt="google">
+        <figcaption>figcaption: Google</figcaption>
+    </figure>
+    <input list="browsers" placeholder="datalist" class="input">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Google Chrome">
+        <option value="Firefox">
+    </datalist>
+    <div class="input-types">
+        <h3>Inputs</h3>
+        <p>The idea of these new types is that the user agent can provide the user interface, such as a calendar date picker or integration with the user's address book, and submit a defined format to the server. It gives the user a better experience as his input is checked before sending it to the server meaning there is less time to wait for feedback.</p>
+        <input type="text" placeholder="text">
+        <input type="search" placeholder="search">
+        <input type="url" placeholder="url">
+        <input type="email" placeholder="email">
+        <input type="date" placeholder="date">
+        <input type="time" placeholder="time">
+        <input type="number" placeholder="number">
+        <input type="range" placeholder="range">
+        <input type="color" placeholder="color">
+    </div>
+</body>
+
+</html>
