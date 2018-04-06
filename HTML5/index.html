@@ -37,9 +37,9 @@
         width: 100%;
     }
 
-	.input {
-		margin-bottom: 10px;
-	}
+    .input {
+        margin-bottom: 10px;
+    }
 
     .input {
         margin-top: 10px;
@@ -59,6 +59,37 @@
     .input-types input {
         display: block;
         margin-top: 10px
+    }
+
+    .input-file {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .input-file span {
+        opacity: 1;
+        background-color: #4888c4;
+        color: #fff;
+        padding: 10px 15px;
+        position: relative;
+        cursor: pointer;
+        border-radius: 7px;
+        transition: 0.1s ease-in-out;
+    }
+
+    .input-file span:hover {
+        color: #4888c4;
+        background-color: #fff;
+    }
+
+    .input-file span input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        cursor: inherit;
+        width: 100%;
+        height: 100%;
     }
     </style>
 </head>
@@ -95,8 +126,8 @@
     <input list="browsers" placeholder="datalist" class="input">
     <datalist id="browsers">
         <option value="Internet Explorer">
-        <option value="Google Chrome">
-        <option value="Firefox">
+            <option value="Google Chrome">
+                <option value="Firefox">
     </datalist>
     <div class="input-types">
         <h3>Inputs</h3>
@@ -111,6 +142,12 @@
         <input type="range" placeholder="range">
         <input type="color" placeholder="color">
     </div>
+    <div class="input-file">
+        <span>
+            Загрузить
+            <input type="file">
+        </span>
+    </div>
 </body>
-
+<p><b>Формула серной кислоты:</b> <i>H<sup>2<sup>4</sup></sup>SO<sub>4</sub></i></p>
 </html>

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGA,IAAI;EACH,SAAS,EAAE,IAAI;EACf,SAAS,EAAE,KAAK;EAChB,QAAQ,EAAE,QAAQ;EAClB,WAAW,EAAE,QAAQ;EACrB,WAAW,EAAE,2BAA2B;EACxC,UAAU,EAAE,MAAM;;AAEnB,QAAQ;EACP,OAAO,EAAE,IAAI",
-"sources": ["../sass/header.sass"],
-"names": [],
-"file": "_header.min.css"
-}
