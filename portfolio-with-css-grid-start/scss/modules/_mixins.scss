@@ -17,3 +17,9 @@
         @content;
     }
 }
+
+@mixin mqfz {
+    @media (max-width: 414px) {
+        font-size: 2em;
+    }
+}
