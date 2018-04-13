@@ -17,7 +17,7 @@ portfolioContainer.addEventListener('click', e => {
 
     const modalClose = _ => {
         modal.classList.remove('is-open');
-        modal.removeEventListener('animationed', modalClose);
+        modal.removeEventListener('animationend', modalClose);
         document.body.style.overflowY = 'scroll';
     };
 
