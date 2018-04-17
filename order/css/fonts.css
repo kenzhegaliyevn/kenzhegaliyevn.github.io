@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "AGFuturaBold";
+    font-style: bold;
+    font-weight: bold; 
+    src: url("../fonts/AG_Futura Bold.ttf");
+}
+
+@font-face {
+    font-family: "AGFuturaRegular";
+    font-style: normal;
+    font-weight: normal; 
+    src: url("../fonts/AG_Futura Regular.ttf");
+}
