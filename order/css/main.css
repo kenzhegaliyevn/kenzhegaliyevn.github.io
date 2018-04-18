@@ -174,7 +174,7 @@
     height: 185px;
     color: #000;
     background-color: #fff;
-    font-size: 21px;
+    font-size: 18px;
     vertical-align: middle;
     margin: 0 5px;
     padding: 30px 40px;
@@ -465,4 +465,10 @@ footer {
 
 .hide {
 	display: none;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
 }
