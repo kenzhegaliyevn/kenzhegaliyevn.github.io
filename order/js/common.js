@@ -11,10 +11,33 @@ $(document).ready(function() {
             this.film_rolls || (this.film_rolls = []);
             this.film_rolls['demo'] = new FilmRoll({
                 container: '#demo',
-                height: 500,
+                height: 420,
                 scroll: false
             });
             return true;
         });
     }).call(this);
+
+	$(".header_content_left a").bind('click', function(){
+		$(".popup").addClass("is_open");
+		$(document.body).addClass("not_scroll");
+	});
+
+	$(".popup_close").bind('click', function(){
+		$(".popup").removeClass("is_open");
+		$(document.body).removeClass("not_scroll");		
+	});
+
+    document.addEventListener('keydown', e => {
+        if (e.keyCode === 27) {
+			$(".popup").removeClass("is_open");
+			$(document.body).removeClass("not_scroll");
+        }
+    });
+
+    $(".popup_content input[type='submit']").click(function(){
+		$(".popup_content form").addClass("hide");
+		$(".thanks_block").removeClass("hide");
+    });
+
 });

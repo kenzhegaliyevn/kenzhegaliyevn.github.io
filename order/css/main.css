@@ -139,13 +139,13 @@
 }
 
 .form_block form input[type="text"],
-.form_block form input[type="email"] {
+.form_block form input[type="tel"] {
     padding-left: 25px;
     color: #000;
 }
 
 .form_block form input[type="text"]::placeholder,
-.form_block form input[type="email"]::placeholder {
+.form_block form input[type="tel"]::placeholder {
     color: #babfc8;
     font-size: 18px;
 }
@@ -329,28 +329,37 @@ footer {
 }
 
 #demo img {
-	width: 100%;
+    width: 100%;
 }
 
 .film_roll_child {
-	width: 50%;
-	margin: 0 20px;
+    width: 50%;
+    margin: 0 20px;
 }
 
 .film_roll_child .active {
-	margin: 0 5px;
-	background: none;
+    margin: 0 5px;
+    background: none;
 }
 
 .film_roll_child img {
-	border-radius: 10px;
+    border-radius: 10px;
 }
 
 .film_roll_prev,
 .film_roll_next {
-	background: linear-gradient(#6f8eed, #a782ff) !important;
-	border: none !important;
-	opacity: 1 !important;
+    background: linear-gradient(#6f8eed, #a782ff) !important;
+    border: none !important;
+    opacity: 1 !important;
+    top: 38% !important;
+}
+
+.film_roll_prev {
+	left: 22% !important;
+}
+
+.film_roll_next {
+	right: 22% !important;
 }
 
 .film_roll_shuttle .active img {
@@ -358,12 +367,102 @@ footer {
 }
 
 .film_roll_pager a {
-	background-color: #deeaff !important;
-	border: none !important;
-	height: 10px !important;
-	width: 10px !important;
+    background-color: #deeaff !important;
+    border: none !important;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 .film_roll_pager a.active {
-	background-color: #185aec !important;
+    background-color: #185aec !important;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+	background-color: rgba(17, 17, 17, 0.65);
+	display: none;
+}
+
+.is_open {
+	display: block;
+}
+
+.popup_content {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(#6f8eed, #a682fe);
+    margin: 120px auto;
+    border-radius: 10px;
+}
+
+.popup_content form input {
+    display: block;
+    border-radius: 25px;
+    border: none;
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px auto;
+}
+
+.popup_content form {
+    padding-top: 20px;
+}
+
+.popup_content form input[type="text"] {
+	margin-top: 50px;
+}
+
+.popup_content form input[type="text"],
+.popup_content form input[type="tel"] {
+    color: #000;
+    text-align: center;    
+}
+
+.popup_content form input[type="text"]::placeholder,
+.popup_content form input[type="tel"]::placeholder {
+    color: #babfc8;
+    font-size: 15px;    
+}
+
+.popup_content form input[type="submit"] {
+    background-color: #185aec;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'AGFuturaBold', sans-serif;
+}
+
+.popup_close {
+    background-color: $white;
+    border: none;
+    position: fixed;
+    right: 33em;
+    top: 9em;
+    width: 3em;
+    height: 3em;
+    padding: 4px 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(black, .5);
+    cursor: pointer;
+}
+
+.not_scroll {
+	overflow-y: hidden;
+}
+
+.thanks_block {
+	padding-top: 30px;
+	color: #fff;
+}
+
+.hide {
+	display: none;
 }
