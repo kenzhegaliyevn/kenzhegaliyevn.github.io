@@ -26,12 +26,12 @@
 .header_menu_list a {
     padding: 0;
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 14px;
     padding-right: 14px;
     text-decoration: none;
     color: #000;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 
@@ -51,17 +51,17 @@
 
 .header_phone a {
     position: absolute;
-    top: 27px;
+    top: 30px;
     padding-left: 15px;
     margin: 0;
     vertical-align: middle;
-    font-size: 20px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-size: 16px;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .header_content_left h1 {
     font-size: 35px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .header_content_left p {
@@ -81,7 +81,7 @@
 .header_bottom {
     margin-top: 300px;
     font-size: 20px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .header_bottom span::before {
@@ -153,7 +153,7 @@
 .form_block form input[type="submit"] {
     background-color: #185aec;
     font-size: 18px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 
@@ -180,7 +180,7 @@
     padding: 30px 40px;
     text-align: left;
     border-radius: 10px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     cursor: pointer;
 }
 
@@ -271,7 +271,7 @@
     text-align: left;
     font-size: 16px;
     margin-top: 40px;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .item {
@@ -297,6 +297,7 @@
     border-bottom-right-radius: 10px;
     margin-top: -20px;
     padding: 30px 100px 80px;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .contact h3 {
@@ -351,7 +352,7 @@ footer {
     background: linear-gradient(#6f8eed, #a782ff) !important;
     border: none !important;
     opacity: 1 !important;
-    top: 38% !important;
+    top: 43% !important;
 }
 
 .film_roll_prev {
@@ -435,7 +436,7 @@ footer {
     background-color: #185aec;
     font-size: 15px;
     color: #fff;
-    font-family: 'AGFuturaBold', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .popup_close {

@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "AGFuturaBold";
+    font-family: "RobotoBold";
     font-style: bold;
     font-weight: bold; 
-    src: url("../fonts/AG_Futura Bold.ttf");
+    src: url("../fonts/Roboto-Bold.ttf");
 }
 
 @font-face {
-    font-family: "AGFuturaRegular";
+    font-family: "RobotoRegular";
     font-style: normal;
     font-weight: normal; 
-    src: url("../fonts/AG_Futura Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
 }
