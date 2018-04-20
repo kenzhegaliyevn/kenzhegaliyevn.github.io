@@ -303,6 +303,7 @@
 .contact h3 {
     text-align: left;
     padding: 5px 45px;
+    color: #000;
 }
 
 .contact h3 span {
@@ -469,7 +470,7 @@ footer {
 }
 
 .logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 40px;
+    padding-top: 15px;
+    /*padding-bottom: 15px;*/
+    font-size: 30px;
 }
