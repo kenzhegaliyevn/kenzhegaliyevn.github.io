@@ -11,17 +11,114 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	header {
+		height: 50%;
+	}
 
+	.header_menu_list {
+		display: none;		
+	}
+	.header_phone {
+		padding-left: 80px;
+	}
+	.logo {
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	.header_bottom {
+		margin-top: 100px;
+	}
+
+	.header_phone a {
+		padding-left: 5px;
+	}
+
+	.header_content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.header_content_left h1 {
+		font-size: 25px;
+	}
+
+	.popup_close {
+		right: 2.5em;
+	}
+
+	.popup_content {
+		width: 350px;
+	}
+
+	.film_roll_wrapper {
+		height: 50% !important;
+	}
+	.film_roll_next {
+	    right: 14% !important;
+	}
+	.film_roll_prev {
+	    left: 14% !important;
+	}
+
+	.form_block form input {
+		display: block;
+		width: 100%;
+		margin: 10px auto;	
+	}
+
+	.tab {
+		width: 21%;
+		font-size: 13px;
+		padding: 5px;
+		word-break: break-all;
+	}
+
+	.tab_active::after {
+		left: 32%;
+	}
+
+	.items_block h1 {
+		padding: 0 5px;
+	}
+
+	.items_block {
+		text-align: center;
+		
+	}
+	.items_block p {
+		text-align: center;
+	}
+
+	.contact {
+		padding: 10px;
+	}
+
+	footer {
+		display: none;
+		
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+	.popup_close {
+		right: 1.5em;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.header_phone {
+		padding-left: 55px;
+	}
 
+	.header_phone a {
+		padding: 0;
+	}
 }
 
 
