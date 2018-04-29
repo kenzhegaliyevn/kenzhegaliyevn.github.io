@@ -59,7 +59,8 @@
 }
 
 
-.lecture-popup {
+.lecture-popup,
+.lab-popup {
     position: fixed;
     top: 0;
     right: 0;
@@ -70,7 +71,8 @@
     /*display: none;*/
 }
 
-.lecture-popup-close {
+.lecture-popup-close,
+.lab-popup-close {
     background-color: #EDA;
     border: none;
     position: fixed;
@@ -118,7 +120,8 @@
     cursor: pointer;		
 }
 
-.lecture-popup-content {
+.lecture-popup-content,
+.lab-popup-content {
     /*width: 80%;*/
     /*height: 300px;*/
     /*background: linear-gradient(#6f8eed, #a682fe);*/
@@ -126,11 +129,16 @@
     margin: 100px;
     border-radius: 5px;
     padding: 30px;
-}
-
-.lecture-popup-content {
 	height: 500px;
 	overflow-y: scroll;
+}
+
+.lab-popup-content {
+	font-size: 16px;
+}
+
+.lab-popup-content span {
+	padding: 10px;
 }
 
 .lecture-page-1,
