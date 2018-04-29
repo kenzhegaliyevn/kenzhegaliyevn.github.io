@@ -1,38 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Aizada</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aizada</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div class="container">
-		<div class="header">
-			<img src="img/kaznu.png" alt="KazNU">
-			<h1 class="top">Al-Farabi Kazakh National University</h1>
-			<h1>ICT</h1>
-			<h3>Theme:</h3>
-			<span>By: Aizada</span>
-			<br>
-			<span class="next-btn">=></span>
-		</div>
+    <div class="container">
+        <div class="header">
+            <img src="img/kaznu.png" alt="KazNU">
+            <h1 class="top">Al-Farabi Kazakh National University</h1>
+            <h1>ICT</h1>
+            <h3>Theme:</h3>
+            <span>By: Aizada</span>
+            <br>
+            <span class="next-btn">=></span>
+        </div>
+        <div class="choose hide">
+            <a href="#" class="lecture-open">Lecture</a>
+            <br>
+            <a href="#">Lab</a>
+        </div>
+        <div class="lecture-popup hide">
+            <button class="lecture-popup-close">
+                <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                        <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7" />
+                    </g>
+                </svg>
+            </button>
+            <div class="lecture-popup-content">
+                A database is an organized collection of data.[1] A relational database, more restrictively, is a collection of schemas, tables, queries, reports, views, and other elements. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies. A database-management system (DBMS) is a computer-software application that interacts with end-users, other applications, and the database itself to capture and analyze data. A general-purpose DBMS allows the definition, creation, querying, update, and administration of databases. A database is not generally portable across different DBMSs, but different DBMSs can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS. Computer scientists may classify database-management systems according to the database models that they support; the most popular database systems since the 1980s have all supported the relational model - generally associated with the SQL language.[disputed – discuss] Sometimes a DBMS is loosely referred to as a "database". </div>
+        </div>
+        <!-- <div class="lecture-content hide"></div> -->
+        <div class="lab-content hide"></div>
+    </div>
+    <script>
+    const next = document.querySelector('.next-btn');
+    const header = document.querySelector('.header');
+    const choose = document.querySelector('.choose');
+    next.addEventListener('click', _ => {
+        header.classList.add('hide');
+        choose.classList.remove('hide');
+    });
 
-		<div class="choose hide">
-			<a href="#">Lecture</a><br>
-			<a href="#">Lab</a>
-		</div>
+	const lectureOpen = document.querySelector('.lecture-open');
+	const lecturePopup = document.querySelector('.lecture-popup');
 
-		<div class="lecture-content hide"></div>
-		<div class="lab-content hide"></div>
-	</div>
-	<script>
-		const next = document.querySelector('.next-btn');
-		const header = document.querySelector('.header');
-		const choose = document.querySelector('.choose');
-		next.addEventListener('click', _ => {
-            header.classList.add('hide');
-            choose.classList.remove('hide');
-		});
-	</script>
+	lectureOpen.addEventListener('click', _ => {
+		lecturePopup.classList.remove('hide');
+        choose.classList.add('hide');
+	});
+
+	const lecturePopupClose = document.querySelector('.lecture-popup-close');
+
+	lecturePopupClose.addEventListener('click', _ => {
+		lecturePopup.classList.add('hide');
+        choose.classList.remove('hide');
+	});
+
+    document.addEventListener('keydown', e => {
+        if (e.keyCode === 27) {
+			lecturePopup.classList.add('hide');
+	        choose.classList.remove('hide');
+        }
+    });
+    </script>
 </body>
+
 </html>
