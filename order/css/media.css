@@ -30,7 +30,14 @@
 		padding-top: 20px;
 	}
 	.header_bottom {
-		margin-top: 100px;
+		position: relative;
+		margin: 0;
+	}
+
+	.header_bottom .row {
+		position: absolute;
+		top: 235px;
+		font-size: 16px;
 	}
 
 	.header_phone a {
@@ -40,6 +47,7 @@
 	.header_content {
 		padding-left: 20px;
 		padding-right: 20px;
+		padding-top: 80px;
 	}
 
 	.header_content_left h1 {
@@ -79,6 +87,11 @@
 
 	.tab_active::after {
 		left: 32%;
+	}
+
+	.item {
+		padding: 20px;
+		margin: 0;
 	}
 
 	.items_block h1 {
