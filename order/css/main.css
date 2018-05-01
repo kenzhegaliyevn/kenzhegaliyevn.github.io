@@ -580,6 +580,8 @@ footer {
     display: none;
 }
 
-.menu-button img {
-    width: 50%;    
+.popup_close,
+.menu-button {
+    border: none;
+    background: inherit;    
 }
