@@ -521,6 +521,7 @@ footer {
 }
 
 
+
 /*jssor slider bullet skin 051 css*/
 
 .jssorb051 .i {
@@ -544,6 +545,7 @@ footer {
 .jssorb051 .i.idn {
     opacity: .3;
 }
+
 
 
 /*jssor slider arrow skin 051 css*/
@@ -576,9 +578,4 @@ footer {
 
 .menu-button {
     display: none;
-}
-
-.hamburger {
-    background-color: inherit;
-    border: none;
 }
