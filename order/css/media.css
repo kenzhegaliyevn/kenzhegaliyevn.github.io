@@ -8,9 +8,11 @@
 
 
 
+
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {}
+
 
 
 
@@ -20,18 +22,15 @@
 
 
 
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
     header {
         height: 50%;
     }
-
-    .header_menu_list {
-        display: none;
-    }
     .header_phone {
-        padding-left: 80px;
+        padding-left: 20px;
     }
     .logo {
         padding-left: 20px;
@@ -136,7 +135,72 @@
     footer {
         display: none;
     }
+
+    .menu-button {
+        display: block;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .header_menu_list {
+    	display: none;
+    	
+    }
+
+    header .row {
+    	display: -webkit-flex;
+    	display: -moz-flex;
+    	display: -ms-flex;
+    	display: -o-flex;
+    	display: flex;
+    }
+
+    .header-item-1 {
+    	order: 2;
+    }
+    .header-item-2 {
+    	order: 1;
+    }
+    .header-item-3 {
+    	order: 3;
+    }
+
+	.mobile-menu {
+		position: fixed;
+	    background-color: rgba(255, 255, 255, 0.98);
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		opacity: 1;
+		/*display: none;*/
+	}
+
+/*	body {
+		overflow: hidden;
+	}*/
+    .mobile-menu ul {
+    	padding: 0;
+    	margin: 0;
+    	padding-top: 20%;
+    }
+
+    .mobile-menu li {
+    	font-size: 16px;
+    	display: block;
+    	text-align: center;
+    	padding: 10px;
+    	margin: 0;
+        list-style-type: none;
+	    font-family: 'RobotoBold', sans-serif;
+    }
 }
+
 
 
 
@@ -152,11 +216,12 @@
     }
 
     .header_bottom .row {
-    	padding: 0;
+        padding: 0;
         top: 170px;
         font-size: 14px;
     }
 }
+
 
 
 
@@ -193,6 +258,7 @@
 
 
 
+
 /*==========  Mobile First Method  ==========*/
 
 
@@ -202,9 +268,11 @@
 
 
 
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {}
+
 
 
 
@@ -214,9 +282,11 @@
 
 
 
+
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {}
+
 
 
 

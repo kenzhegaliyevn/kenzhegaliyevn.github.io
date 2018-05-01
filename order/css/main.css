@@ -126,6 +126,7 @@
 .slider {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .form_block {
@@ -385,11 +386,11 @@ footer {
 }
 
 .film_roll_prev {
-	left: 22% !important;
+    left: 22% !important;
 }
 
 .film_roll_next {
-	right: 22% !important;
+    right: 22% !important;
 }
 
 .film_roll_shuttle .active img {
@@ -415,12 +416,12 @@ footer {
     left: 0;
     z-index: 10;
     text-align: center;
-	background-color: rgba(17, 17, 17, 0.65);
-	display: none;
+    background-color: rgba(17, 17, 17, 0.65);
+    display: none;
 }
 
 .is_open {
-	display: block;
+    display: block;
 }
 
 .popup_content {
@@ -446,19 +447,19 @@ footer {
 }
 
 .popup_content form input[type="text"] {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .popup_content form input[type="text"],
 .popup_content form input[type="tel"] {
     color: #000;
-    text-align: center;    
+    text-align: center;
 }
 
 .popup_content form input[type="text"]::placeholder,
 .popup_content form input[type="tel"]::placeholder {
     color: #babfc8;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
 .popup_content form input[type="submit"] {
@@ -485,20 +486,95 @@ footer {
 }
 
 .not_scroll {
-	overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 .thanks_block {
-	padding-top: 30px;
-	color: #fff;
+    padding-top: 30px;
+    color: #fff;
 }
 
 .hide {
-	display: none;
+    display: none;
 }
 
 .logo {
     padding-top: 15px;
     /*padding-bottom: 15px;*/
     font-size: 30px;
+}
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*jssor slider bullet skin 051 css*/
+
+.jssorb051 .i {
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssorb051 .i .b {
+    fill: #fff;
+    fill-opacity: 0.5;
+}
+
+.jssorb051 .i:hover .b {
+    fill-opacity: .7;
+}
+
+.jssorb051 .iav .b {
+    fill-opacity: 1;
+}
+
+.jssorb051 .i.idn {
+    opacity: .3;
+}
+
+
+/*jssor slider arrow skin 051 css*/
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
+
+.jssora051.jssora051dn {
+    opacity: .5;
+}
+
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.menu-button {
+    display: none;
+    
 }
