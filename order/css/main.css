@@ -575,7 +575,10 @@ footer {
 }
 
 .menu-button {
+    display: none;
+}
+
+.hamburger {
     background-color: inherit;
     border: none;
-    display: none;
 }
