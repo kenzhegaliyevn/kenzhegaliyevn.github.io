@@ -178,12 +178,8 @@
 		left: 0;
 		width: 100%;
 		opacity: 1;
-		/*display: none;*/
 	}
 
-/*	body {
-		overflow: hidden;
-	}*/
     .mobile-menu ul {
     	padding: 0;
     	margin: 0;
@@ -219,6 +215,27 @@
         padding: 0;
         top: 170px;
         font-size: 14px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .header_phone a {
+        font-size: 13px;
+    }
+
+    .header_phone span {
+        -webkit-background-size: 17px;
+        background-size: 17px;
+    }
+
+    .header_bottom_item {
+        padding: 0 5px;
+    }
+
+    .item {
+        padding: 10px;
     }
 }
 
