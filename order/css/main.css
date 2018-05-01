@@ -582,6 +582,6 @@ footer {
 
 .popup_close,
 .menu-button {
-    border: none;
-    background: inherit;    
+    background-color: transparent;
+    border: 0;
 }
