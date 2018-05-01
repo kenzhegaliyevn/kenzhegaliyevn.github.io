@@ -575,5 +575,7 @@ footer {
 }
 
 .menu-button {
+    background-color: inherit;
+    border: none;
     display: none;
 }
