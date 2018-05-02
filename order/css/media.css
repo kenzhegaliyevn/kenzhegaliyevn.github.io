@@ -57,7 +57,7 @@
     }
 
     .header_bottom_item {
-        flex: 0 50%;
+        flex: 1 49%;
     }
 
     .header_phone a {
@@ -206,6 +206,9 @@
         list-style-type: none;
         font-family: 'RobotoBold', sans-serif;
     }
+    .header_content_left p {
+        font-size: 16px;        
+    }
 }
 
 
@@ -249,6 +252,7 @@
 
     .header_bottom_item {
         padding: 0 5px;
+        flex: 1 48%;
     }
 
     .item {
