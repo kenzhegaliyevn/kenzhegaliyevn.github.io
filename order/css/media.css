@@ -136,7 +136,8 @@
     }
     .items_block p {
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: 20px;
     }
 
     .contact {
@@ -150,7 +151,7 @@
     .menu-button {
         display: block;
         margin-top: 22px;
-        margin-left: 10px;
+        /*margin-left: 10px;*/
     }
 
     .hamburger {
@@ -262,9 +263,9 @@
         flex: 1 48%;
     }
 
-    .item {
+/*    .item {
         padding: 10px;
-    }
+    }*/
     .header_bottom span::before {
         margin-bottom: 10px;
     }
