@@ -67,7 +67,7 @@
     .header_content {
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 80px;
+        padding-top: 50px;
     }
 
     .header_content_left h1 {
@@ -207,7 +207,8 @@
         font-family: 'RobotoBold', sans-serif;
     }
     .header_content_left p {
-        font-size: 16px;        
+        font-size: 16px;
+        margin-bottom: 70px;
     }
 }
 
@@ -274,7 +275,8 @@
     .header_bottom .row {
         /*top: 75px;*/
         font-size: 12px;
-        padding: 0px;
+        padding: 0;
+        padding-top: 35%;
     }
     .header_bottom_item {
         padding: 5px;
@@ -288,6 +290,35 @@
     }
     .form_block input {
         width: 90%;
+    }
+    .header_content_left h1 {
+        font-size: 20px;
+    }
+    .header_content_left p {
+        font-size: 13px;
+    }
+
+    .tabs {
+        height: 215px;
+    }
+
+    .items_block p {
+        font-size: 12px;
+    }
+
+    .popup_content {
+        width: 285px;
+    }
+
+    .header_phone {
+        padding-left: 20px;
+    }
+    .header_phone span {
+        background-size: 14px;
+    }
+
+    .header_phone a {
+        font-size: 11px;
     }
 }
 
