@@ -110,12 +110,15 @@
     }
 
     .tab {
+        height: 155px;
         font-size: 14px;
         margin: 0 20px;
+        padding: 10px 20px;
     }
 
     .tab_active::after {
         left: 40%;
+        top: 150px;
     }
 
     .item {
@@ -133,6 +136,7 @@
     }
     .items_block p {
         text-align: center;
+        font-size: 14px;
     }
 
     .contact {
@@ -146,7 +150,7 @@
     .menu-button {
         display: block;
         margin-top: 22px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .hamburger {
@@ -207,8 +211,8 @@
         font-family: 'RobotoBold', sans-serif;
     }
     .header_content_left p {
-        font-size: 16px;
-        margin-bottom: 70px;
+        font-size: 17px;
+        margin-bottom: 50px;
     }
 }
 
@@ -239,6 +243,8 @@
     }
 
     .logo {
+        display: none;
+        
         font-size: 25px;
     }
 
@@ -252,12 +258,15 @@
     }
 
     .header_bottom_item {
-        padding: 0 5px;
+        padding: 10px 5px;
         flex: 1 48%;
     }
 
     .item {
         padding: 10px;
+    }
+    .header_bottom span::before {
+        margin-bottom: 10px;
     }
 }
 
