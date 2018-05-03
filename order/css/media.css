@@ -121,7 +121,7 @@
     .tab {
         height: 90px;
         font-size: 14px;
-        margin: 0 10px;
+        margin: 0 5px;
         padding: 13px 5px;
         flex-grow: 0;
         flex-shrink: 0;
