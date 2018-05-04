@@ -52,7 +52,7 @@
     }
     .header_bottom {
         /*position: relative;*/
-        padding-top: 130%;
+        padding-top: 385px;
         margin: 0;
     }
 
@@ -274,7 +274,7 @@
     }
 
     .header_bottom {
-        padding-top: 135%;
+        padding-top: 320px;
     }
 
     .header_bottom .row {
