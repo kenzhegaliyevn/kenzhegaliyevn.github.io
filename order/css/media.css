@@ -81,6 +81,8 @@
 
     .header_content_left h1 {
         font-size: 25px;
+        padding: 0;
+        margin: 0;
     }
 
     .popup_close {
