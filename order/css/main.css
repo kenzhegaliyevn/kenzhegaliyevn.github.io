@@ -438,6 +438,11 @@ footer {
     width: 345px;
 }
 
+.popup_content-form p {
+    text-align: center;
+    
+}
+
 .popup_content form input {
     display: block;
     border-radius: 25px;
@@ -497,6 +502,7 @@ footer {
     position: fixed;
     right: 0em;
     top: 7em;
+    right: 36%;
     width: 3em;
     height: 3em;
     padding: 4px 0 0;
