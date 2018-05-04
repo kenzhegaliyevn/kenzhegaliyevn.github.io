@@ -13,6 +13,12 @@
     padding-bottom: 30px;
 }
 
+.menu-button {
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
 .header_menu_list ul {
     padding: 0;
     margin: 0;
@@ -481,11 +487,11 @@ footer {
 }
 
 .popup_close {
-    background-color: $white;
+    background-color: white;
     border: none;
     position: fixed;
-    right: 33em;
-    top: 9em;
+    right: 35em;
+    top: 7em;
     width: 3em;
     height: 3em;
     padding: 4px 0 0;
@@ -497,7 +503,7 @@ footer {
 }
 
 .popup_close-form {
-    background-color: $white;
+    background-color: white;
     border: none;
     position: fixed;
     right: 0em;
@@ -604,12 +610,4 @@ footer {
     pointer-events: none;
 }
 
-.menu-button {
-    display: none;
-}
 
-.popup_close,
-.menu-button {
-    background-color: transparent;
-    border: 0;
-}

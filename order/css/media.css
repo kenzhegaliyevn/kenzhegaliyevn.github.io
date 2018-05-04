@@ -86,7 +86,7 @@
     }
 
     .popup_close {
-        right: 2.5em;
+        right: 0;
     }
 
     .popup_content {
@@ -252,6 +252,10 @@
     .popup_close-form {
         right: 0;
     }
+
+    .popup_content-form {
+        width: 90%;
+    }
 }
 
 
@@ -265,7 +269,7 @@
 
 @media only screen and (max-width: 375px) {
     .popup_close {
-        right: 1.5em;
+        right: 0;
     }
 
     .form_block {
