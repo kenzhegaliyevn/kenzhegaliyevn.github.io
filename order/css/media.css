@@ -53,14 +53,14 @@
     .header_bottom {
         /*position: relative;*/
         padding: 0;
-        margin-top: 420px;
+        margin: 0;
     }
 
     .header_bottom .row {
         /*position: absolute;*/
         /*top: 210px;*/
         font-size: 14px;
-        padding: 10px;
+        padding-top: 430px;
         flex-wrap: wrap;
     }
 
@@ -275,12 +275,11 @@
 
     .header_bottom {
         padding: 0;
-        margin-top: 380px;
+        margin: 0;
     }
 
     .header_bottom .row {
-        padding: 0;
-        /*top: 160px;*/
+        padding-top: 385px;
         font-size: 14px;
     }
 
@@ -328,16 +327,17 @@
 
     .header_bottom {
         padding: 0;
-        margin-top: 325px;
+        margin: 0;
     }
     .header_bottom .row {
-        /*top: 75px;*/
+        padding-top: 315px;
         font-size: 12px;
-        padding: 0;
     }
+
     .header_bottom_item {
         padding: 5px;
     }
+
     .item {
         padding: 5px;
     }
