@@ -11,6 +11,7 @@ $(document).ready(function() {
         $("body").css({ "overflow": "hidden" });
     });
 
+
     $(".menu-button .close-icon").bind('click', function() {
         $(".mobile-menu").addClass("hide");
         $("body").css({"overflow":"visible"});
@@ -37,13 +38,24 @@ $(document).ready(function() {
         });
     }).call(this);
 
+    $(".form_block input[type='submit']").bind('click', function() {
+        $(".popup-form").addClass("is_open");
+        $(document.body).addClass("not_scroll");
+    });
+
     $(".header_content_left a").bind('click', function() {
         $(".popup").addClass("is_open");
         $(document.body).addClass("not_scroll");
     });
 
+
     $(".popup_close").bind('click', function() {
         $(".popup").removeClass("is_open");
+        $(document.body).removeClass("not_scroll");
+    });
+
+    $(".popup_close-form").bind('click', function() {
+        $(".popup-form").removeClass("is_open");
         $(document.body).removeClass("not_scroll");
     });
 
@@ -71,9 +83,6 @@ $(document).ready(function() {
         .keydown(function(e) {
             var key = e.which || e.charCode || e.keyCode || 0;
             $phone = $(this);
-
-            console.log("$phone.val()", $phone.val());
-            console.log("$phone.val()", $phone.val().length);
 
             if ($phone.val().length === 1) {
                 $phone.val($phone.val() + '(');

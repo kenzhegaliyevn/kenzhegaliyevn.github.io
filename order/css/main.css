@@ -408,7 +408,8 @@ footer {
     background-color: #185aec !important;
 }
 
-.popup {
+.popup,
+.popup-form {
     position: fixed;
     top: 0;
     right: 0;
@@ -424,12 +425,17 @@ footer {
     display: block;
 }
 
-.popup_content {
+.popup_content,
+.popup_content-form {
     width: 400px;
     height: 300px;
     background: linear-gradient(#6f8eed, #a682fe);
     margin: 120px auto;
     border-radius: 10px;
+}
+
+.popup_content-form {
+    width: 345px;
 }
 
 .popup_content form input {
@@ -475,6 +481,22 @@ footer {
     position: fixed;
     right: 33em;
     top: 9em;
+    width: 3em;
+    height: 3em;
+    padding: 4px 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(black, .5);
+    cursor: pointer;
+}
+
+.popup_close-form {
+    background-color: $white;
+    border: none;
+    position: fixed;
+    right: 0em;
+    top: 7em;
     width: 3em;
     height: 3em;
     padding: 4px 0 0;
