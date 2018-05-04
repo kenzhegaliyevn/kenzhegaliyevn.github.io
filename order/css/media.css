@@ -241,9 +241,11 @@
     }
 
     .mobile-menu a {
-        color: #000;
+        color: #000;        
+    }
+
+    .mobile-menu a:hover {
         text-decoration: underline;
-        
     }
 
     .mobile-menu li {
