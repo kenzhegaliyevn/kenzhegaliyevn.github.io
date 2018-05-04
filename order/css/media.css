@@ -76,7 +76,7 @@
     .header_content {
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 30px;
+        padding-top: 80px;
     }
 
     .header_content_left h1 {
@@ -136,7 +136,7 @@
     }
 
     .header_phone {
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
     .tab_active::after {
         left: 43%;
@@ -228,11 +228,21 @@
         right: 15px;
     }
 
+    .mobile-menu {
+        z-index: 2;
+    }
+
     .mobile-menu ul {
         padding: 0;
         margin: 0;
         padding-top: 10%;
         padding-bottom: 25%;
+    }
+
+    .mobile-menu a {
+        color: #000;
+        text-decoration: underline;
+        
     }
 
     .mobile-menu li {
@@ -242,7 +252,7 @@
         padding: 10px;
         margin: 0;
         list-style-type: none;
-        font-family: 'RobotoBold', sans-serif;
+        font-family: 'RobotoRegular', sans-serif;
     }
     .header_content_left p {
         font-size: 17px;
