@@ -52,8 +52,8 @@
     }
     .header_bottom {
         /*position: relative;*/
-        padding-top: 385px;
-        margin: 0;
+        padding: 0;
+        margin-top: 420px;
     }
 
     .header_bottom .row {
@@ -274,7 +274,8 @@
     }
 
     .header_bottom {
-        padding-top: 400px;
+        padding: 0;
+        margin-top: 380px;
     }
 
     .header_bottom .row {
@@ -323,6 +324,11 @@
 
     .header_phone a {
         padding: 0;
+    }
+
+    .header_bottom {
+        padding: 0;
+        margin-top: 325px;
     }
     .header_bottom .row {
         /*top: 75px;*/
