@@ -183,6 +183,7 @@ body {
 	background-position: center;
 	background-image: url(../img/header_01.png);
 	padding-top: 7vh;
+	padding-bottom: 8vh;
 	color: #fff;
 }
 
@@ -199,4 +200,17 @@ body {
 	text-transform: uppercase;
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+#bottom_header a {
+	color: #fff;
+	text-transform: uppercase;
 }
