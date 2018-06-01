@@ -214,3 +214,37 @@ nav a {
 	color: #fff;
 	text-transform: uppercase;
 }
+
+#about {
+	width: 100%;
+	padding-top: 18vh;
+	padding-bottom: 22vh;
+}
+
+#text_about {
+	width: 44vw;
+	padding-right: 1.5vw;
+}
+
+#text_about ul {
+	width: 30vw;
+	margin: 6vh 0;
+}
+
+#text_about ul li {
+	margin-bottom: 1.18vh;
+}
+
+.blue {
+	color: #00aaef;
+}
+
+#title_about {
+	width: 30vw;
+}
+
+#title_about p {
+	text-transform: uppercase;
+	font-size: 3.8vw;
+	line-height: 4.74vw;
+}
