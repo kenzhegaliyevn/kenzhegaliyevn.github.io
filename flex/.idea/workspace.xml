@@ -22,8 +22,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
-                  <caret line="347" column="29" lean-forward="false" selection-start-line="347" selection-start-column="29" selection-end-line="347" selection-end-column="29" />
+                <state relative-caret-position="187">
+                  <caret line="352" column="24" lean-forward="false" selection-start-line="352" selection-start-column="24" selection-end-line="352" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -36,8 +36,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="647">
-                  <caret line="178" column="61" lean-forward="false" selection-start-line="178" selection-start-column="61" selection-end-line="178" selection-end-column="61" />
+                <state relative-caret-position="721">
+                  <caret line="216" column="60" lean-forward="true" selection-start-line="216" selection-start-column="60" selection-end-line="216" selection-end-column="60" />
                   <folding>
                     <element signature="n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,7 +52,6 @@
                     <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -199,12 +198,12 @@
       <updated>1527676695602</updated>
       <workItem from="1527676699859" duration="16000" />
       <workItem from="1527833497159" duration="8477000" />
-      <workItem from="1528086808641" duration="5978000" />
+      <workItem from="1528086808641" duration="7139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14471000" />
+    <option name="totallyTimeSpent" value="15632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -265,7 +264,6 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -304,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="178" column="61" lean-forward="false" selection-start-line="178" selection-start-column="61" selection-end-line="178" selection-end-column="61" />
+        <state relative-caret-position="721">
+          <caret line="216" column="60" lean-forward="true" selection-start-line="216" selection-start-column="60" selection-end-line="216" selection-end-column="60" />
           <folding>
             <element signature="n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -320,7 +318,6 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -336,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="347" column="29" lean-forward="false" selection-start-line="347" selection-start-column="29" selection-end-line="347" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="352" column="24" lean-forward="false" selection-start-line="352" selection-start-column="24" selection-end-line="352" selection-end-column="24" />
           <folding />
         </state>
       </provider>
