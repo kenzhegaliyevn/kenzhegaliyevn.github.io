@@ -194,6 +194,7 @@ body {
 
 #logo {
 	width: 15vh;
+	fill: #fff;
 }
 
 #call {
@@ -248,4 +249,101 @@ nav a {
 	text-transform: uppercase;
 	font-size: 3.8vw;
 	line-height: 4.74vw;
+}
+
+.title {
+	margin: 0 auto 5.5vh;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+	top: -2.61vh;
+}
+
+.title h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.79vw;
+	color: #323232;
+	line-height: 2.84vw;
+	margin-bottom: 1.22vh;
+	font-weight: 400;
+	letter-spacing: 0.1vw;
+}
+
+.dec_svg {
+	fill: #00aaef;
+	width: 2.58vw;
+	margin: 0 0.79vw;
+}
+
+.line {
+	background-color: #00aaef;
+	height: 0.26vh;
+	width: 100%;
+}
+
+#gallery {
+	background-color: #eee;
+	padding: 0 0 14.3vh;
+}
+
+.box_img_gallery {
+	height: 20vmax;
+	overflow: hidden;
+}
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-child(1) {
+	width: 49vw;
+	margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-child(2) {
+	width: 25.45vw;
+}
+
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-child(1) {
+	width: 36.36vw;
+	margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-child(2) {
+	width: 38.06vw;
+}
+
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-child(1) {
+	width: 23.71vw;
+	margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-child(2) {
+	width: 53.86vw;
+}
+
+.box_img_gallery:odd {
+	margin-right: 1.58vw;
+}
+
+.box_img_gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.name_gallery {
+	font-size: 1.26vw;
+	margin: 2.61vh 0 4.57vh;
+	font-weight: 700;
+}
+
+.blue_btn {
+	background-color: #00aaef;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn {
+	border: none;
+	padding: 1.58vw 4.98vw;
+}
+
+.blue_btn:hover {
+	background-color: #0185ba;
 }
