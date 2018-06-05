@@ -291,6 +291,7 @@ nav a {
 	height: 20vmax;
 	overflow: hidden;
 }
+
 .gallery_line:nth-of-type(1) .box_img_gallery:nth-child(1) {
 	width: 49vw;
 	margin-right: 1.58vw;
@@ -383,4 +384,67 @@ nav a {
 #form_consultation button {
 	width: 100%;
 	text-align: center;
+}
+
+#testimonials {
+	background-color: #eee;
+	padding-bottom: 19vh;
+}
+
+.box_tm {
+	width: 23.71vw;
+}
+
+.name_tm h3 {
+	font-weight: bold;
+}
+
+.name_tm h4 {
+	font-style: italic;
+	color: #696973;
+	font-weight: 400;
+}
+
+.name_tm h4,
+.name_tm h3 {
+	font-size: 1.26vw;
+	text-align: center;
+}
+
+.name_tm {
+	margin-bottom: 1.3vh;
+}
+
+.text_tm {
+	text-align: center;
+}
+
+.box_img_tm {
+	width: 11.62vw;
+	height: 11.62vw;
+	border-radius: 11.62vw;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 5.81vw);
+}
+
+.box_img_tm img {
+	width: 100%;
+	height: auto;
+}
+
+.img_tm {
+	position: relative;
+	height: 12.8vw;
+}
+
+.dot_tm {
+	width: 2.76vw;
+	height: 2.29vw;
+	position: absolute;
+	z-index: 1;
+	top: calc(50% - 1.14vw);
+	left: 4.11vw;
 }
