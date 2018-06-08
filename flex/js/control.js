@@ -11,15 +11,15 @@ $(function () {
             },
             800
         );
+    });
 
-        var offset = $('#bottom_header').offset();
+    let offset = $('#bottom_header').offset();
 
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > offset.top) {
-                $('#bottom_header').addClass('fixedNav');
-            } else {
-                $('#bottom_header').removeClass('fixedNav');
-            }
-        });
+    $(window).scroll(function () {
+        if ( $(window).scrollTop() > offset.top ) {
+            $('#bottom_header').addClass('fixedNav');
+        } else {
+            $('#bottom_header').removeClass('fixedNav');
+        }
     });
 });
