@@ -25,8 +25,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="854">
-                  <caret line="594" column="20" lean-forward="false" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
+                <state relative-caret-position="421">
+                  <caret line="613" column="17" lean-forward="false" selection-start-line="613" selection-start-column="17" selection-end-line="613" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -194,21 +194,6 @@
               <item name="flex" type="b2602c69:ProjectViewProjectNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,12 +236,12 @@
       <workItem from="1527676699859" duration="16000" />
       <workItem from="1527833497159" duration="8477000" />
       <workItem from="1528086808641" duration="13223000" />
-      <workItem from="1528370669744" duration="11973000" />
+      <workItem from="1528370669744" duration="13758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33689000" />
+    <option name="totallyTimeSpent" value="35474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -482,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="594" column="20" lean-forward="false" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
+        <state relative-caret-position="421">
+          <caret line="613" column="17" lean-forward="false" selection-start-line="613" selection-start-column="17" selection-end-line="613" selection-end-column="17" />
           <folding />
         </state>
       </provider>
