@@ -40,4 +40,14 @@ $(function () {
             autoplaySpeed: 2000,
         });
     }
+
+    $('#modal_box, #black_fill').hide();
+
+    $('#call').click(function() {
+        $('#modal_box, #black_fill').show();
+    });
+
+    $('#close_modal, #black_fill').click(function() {
+        $('#modal_box, #black_fill').hide();
+    });
 });

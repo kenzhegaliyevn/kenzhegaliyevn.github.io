@@ -22,21 +22,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.46076882">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="477">
-                  <caret line="517" column="16" lean-forward="true" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="16" />
+                <state relative-caret-position="854">
+                  <caret line="594" column="20" lean-forward="false" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="control.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="control.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/control.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+                <state relative-caret-position="404">
+                  <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -49,8 +49,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+                <state relative-caret-position="302">
+                  <caret line="433" column="6" lean-forward="true" selection-start-line="433" selection-start-column="6" selection-end-line="433" selection-end-column="6" />
                   <folding>
                     <element signature="n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,7 +65,6 @@
                     <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -118,20 +117,22 @@
     <findStrings>
       <find>main_</find>
       <find>#logo</find>
-      <find>form_cons</find>
       <find>form</find>
       <find>test</find>
+      <find>form_cons</find>
+      <find>form_con</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/coma-01.svg" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
         <option value="$PROJECT_DIR$/css/slick-theme.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/control.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -201,6 +202,11 @@
             <path>
               <item name="flex" type="b2602c69:ProjectViewProjectNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flex" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -245,12 +251,12 @@
       <workItem from="1527676699859" duration="16000" />
       <workItem from="1527833497159" duration="8477000" />
       <workItem from="1528086808641" duration="13223000" />
-      <workItem from="1528370669744" duration="8481000" />
+      <workItem from="1528370669744" duration="11973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30197000" />
+    <option name="totallyTimeSpent" value="33689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -319,7 +325,6 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -390,14 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="517" column="16" lean-forward="true" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/slick-theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
@@ -406,10 +403,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/cancel.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/header_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+        <state relative-caret-position="302">
+          <caret line="433" column="6" lean-forward="true" selection-start-line="433" selection-start-column="6" selection-end-line="433" selection-end-column="6" />
           <folding>
             <element signature="n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -424,7 +442,6 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -458,10 +475,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/control.js">
+    <entry file="file://$PROJECT_DIR$/img/header_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="854">
+          <caret line="594" column="20" lean-forward="false" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
           <folding />
         </state>
       </provider>
