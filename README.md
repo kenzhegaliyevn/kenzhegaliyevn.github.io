@@ -1,5 +1,6 @@
 # knursultan.github.io
-🥋
+🥋 - everydayporrada
+
 
 | Project | Link |
 | --- | --- |
