@@ -1,5 +1,5 @@
 # knursultan.github.io
-
+🥋
 
 | Project | Link |
 | --- | --- |
