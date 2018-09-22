@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cool Link Hover Effect | HTML & CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0b0b;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li a {
+            text-decoration: none;
+            display: inline-block;
+            color: #ffffff;
+            font-family: Source Sans Pro;
+            font-weight: lighter;
+            font-size: 25px;
+            padding: 0 20px;
+        }
+
+        .cool-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #ffffff;
+            transition: width .3s;
+        }
+
+        .cool-link:hover::after {
+            width: 100%;
+            transition: width .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <li>
+            <a href="#" class="cool-link">Home</a>
+        </li>
+        <li>
+            <a href="#" class="cool-link">Search</a>
+        </li>
+        <li>
+            <a href="#" class="cool-link">About</a>
+        </li>
+        <li>
+            <a href="#" class="cool-link">Contact</a>
+        </li>
+    </div>
+</body>
+
+</html>
