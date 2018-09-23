@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Image Gallery Using Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0b0b0b;
+        }
+
+        header {
+            margin: .5w;
+            font-size: 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            flex-flow: row wrap;
+        }
+
+        header div {
+            box-flex: auto;
+            flex: auto;
+            width: 200px;
+            margin: .5vw;
+        }
+
+        header div img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 400px) {
+            header div {
+                margin: 0;
+            }
+
+            header {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="1.jpg">
+        </div>
+        <div>
+            <img src="2.jpg">
+        </div>
+        <div>
+            <img src="3.jpg">
+        </div>
+        <div>
+            <img src="4.jpg">
+        </div>
+        <div>
+            <img src="1.jpg">
+        </div>
+        <div>
+            <img src="2.jpg">
+        </div>
+        <div>
+            <img src="3.jpg">
+        </div>
+        <div>
+            <img src="4.jpg">
+        </div>
+    </header>
+</body>
+
+</html>
