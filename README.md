@@ -4,7 +4,11 @@
 
 | Project | Link |
 | --- | --- |
-| `Interesting things` | [Centering The Text](https://knursultan.github.io/interesting%20things/Centering%20The%20Text%20%7C%20HTML%20&%20CSS/)<br/> [Pre-Loader](https://knursultan.github.io/interesting%20things/Simple%20Pre-Loader%20Using%20CSS%20%7C%20HTML%20&%20CSS/)<br/> [Full Screen Responsive Landing Page](https://knursultan.github.io/interesting%20things/Full%20Screen%20Responsive%20Landing%20Page/)<br> [Link Hover Effect](https://knursultan.github.io/interesting%20things/Cool%20Link%20Hover%20Effect%20%7C%20HTML%20&%20CSS/)<br/> [Designing The Sign In Form](https://knursultan.github.io/interesting%20things/Designing%20The%20Sign%20In%20Form%20|%20HTML%20&%20CSS/)|
+| `Interesting things` | [Centering The Text](https://knursultan.github.io/interesting%20things/Centering%20The%20Text%20%7C%20HTML%20&%20CSS/)<br/> 
+[Pre-Loader](https://knursultan.github.io/interesting%20things/Simple%20Pre-Loader%20Using%20CSS%20%7C%20HTML%20&%20CSS/)<br/>
+[Full Screen Responsive Landing Page](https://knursultan.github.io/interesting%20things/Full%20Screen%20Responsive%20Landing%20Page/)<br> 
+[Link Hover Effect](https://knursultan.github.io/interesting%20things/Cool%20Link%20Hover%20Effect%20%7C%20HTML%20&%20CSS/)<br/>
+[Designing The Sign In Form](https://knursultan.github.io/interesting%20things/Designing%20The%20Sign%20In%20Form%20|%20HTML%20&%20CSS/)|
 | `Landing page (Flex-Box)` | [knursultan.github.io/flex](https://knursultan.github.io/flex/)|
 | `Pure JS Todo app` | [knursultan.github.io/todojs](https://knursultan.github.io/TODOJS/)|
 | `Landing page (CSS GRID)`| [knursultan.github.io/portfolio-with-css-grid-start](https://knursultan.github.io/portfolio-with-css-grid-start/)|
