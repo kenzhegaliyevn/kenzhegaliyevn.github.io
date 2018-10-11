@@ -8,6 +8,9 @@ body {
     justify-items: center;
 }
 
-#bm {
-    width: 250px;
+.wrapper {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
