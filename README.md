@@ -8,3 +8,4 @@
 | `Landing page (Flex-Box)`<br/> `Landing page (CSS GRID)`| [Flex](https://knursultan.github.io/flex/)<br/> [CSS-grid](https://knursultan.github.io/portfolio-with-css-grid-start/)|
 | `Pure JS Todo app` | [todojs](https://knursultan.github.io/TODOJS/)|
 | `SVG animation`| [logo](https://knursultan.github.io/svg-animation/logo/)<br/> [monkey](https://knursultan.github.io/svg-animation/monkey/)<br/> [social-icons](https://knursultan.github.io/svg-animation/social-icons/)<br/> [text](https://knursultan.github.io/svg-animation/text/)<br/> [SVG logo](https://knursultan.github.io/svg%20icons/)|
+| `SPA` |[Recipe Book (Angular)](https://knursultan.github.io/recipe-book/)|
