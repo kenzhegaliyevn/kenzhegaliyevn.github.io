@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #08406b;
+  opacity: 0.95;
+  background: linear-gradient(294deg, #08406b, #50a5eb);
+}
+
+.container {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  display: flex;
+}
+
+header img {
+  width: 148px;
+  height: 68px;
+}
+
+section {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 30vh;
+  color: #ffffff;
+}
+
+.left h1 {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+.left p {
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.left span {
+  color: #ffd700;
+}
+
+.right {
+  width: 50%;
+  height: 30vh;
+}
+
+.right img {
+  width: 45vw;
+}
+
+.field-wrapper input {
+    border: none;
+    border-color: #e3e3e3;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 50%;
+    text-align: center;  
+}
+
+.btn-wrapper button {
+    background: transparent;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+  @media only screen and (max-device-width: 320px),
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+      background-size: auto;
+  }
+  header {
+    justify-content: center;
+  }
+  section {
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    height: auto;
+  }
+
+  .left h1 {
+    font-size: 23px;
+  }
+
+  .right {
+    margin-top: 5%;
+  }
+
+  .right img {
+    width: 100%;
+  }
+
+  .form {
+      width: 100%;
+  }
+
+  .field-wrapper input {
+    width: 80%;
+  }
+
+  .btn-wrapper button {
+      font-size: 12px;
+  }
+}
