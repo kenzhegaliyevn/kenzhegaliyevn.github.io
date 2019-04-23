@@ -23,15 +23,17 @@
               <span>бесплатно!</span>
             </p>
             <div class="form">
-              <div class="field-wrapper">
-                <input type="text" placeholder="Имя*" />
-              </div>
-              <div class="field-wrapper">
-                <input type="text" placeholder="Телефон*" />
-              </div>
-              <div class="btn-wrapper">
-                <button>Оставить заявку</button>
-              </div>
+              <form id="trafficwave_form">
+                <div class="field-wrapper">
+                  <input type="text" placeholder="Имя*" id="full_name" />
+                </div>
+                <div class="field-wrapper">
+                  <input type="text" placeholder="Телефон*" id="phone" />
+                </div>
+                <div class="btn-wrapper">
+                  <button type="submit">Оставить заявку</button>
+                </div>
+              </form>
             </div>
           </div>
           <div class="right">
@@ -50,4 +52,35 @@
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"
   ></script>
+  <script type="text/javascript">
+    // Change #trafficwave_form with your form id
+    // Change #id of fields to your form fields
+    $("#trafficwave_form").submit(function(event) {
+      var data = {
+        uuid: "6881cadd-a0cb-4a6e-8a37-11734f923d39",
+        info: {},
+        url: window.location.href,
+        comment: ""
+      };
+      var fields = [
+        { request_key: "full_name", form_id: "#full_name" },
+        { request_key: "phone", form_id: "#phone" }
+      ];
+      for (var i = 0; i < fields.length; i++) {
+        data["info"][fields[i].request_key] = $(fields[i].form_id).val();
+      }
+      $.ajax({
+        type: "POST",
+        url: "https://api.trafficwave.kz/core/fin_institute/lead/add/",
+        contentType: "application/json",
+        data: JSON.stringify(data),
+        success: function(result) {
+          console.log(result);
+        },
+        dataType: "json"
+      });
+      event.preventDefault();
+    });
+  </script>
 </html>
+#
