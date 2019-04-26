@@ -1,84 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Digital Group</title>
+    <title>Digital Group</title>
 
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="animate.css" />
 </head>
+
 <body class="body">
-  <div class="body_mask">
- <header class="header">
-   <div class="content_container">
-     <h1 class="main_headline">Digital Group</h1>
-     <img class="logo" src="img/logo.png" alt="Digital Group" width="1282px" height="596px">
-   </div>
- </header>
+    <div class="body_mask">
+        <header class="header">
+            <div class="content_container">
+                <h1 class="main_headline">Digital Group</h1>
+                <img class="logo" src="img/logo.png" alt="Digital Group" width="1282px" height="596px">
+            </div>
+        </header>
 
- <main class="main_container">
-   <div class="content_container">
-     <section class="left_block box-size-container">
-       <span class="head_text caps">мечтаете о стабильном притоке клиентов?</span>
-       <p class="left_block-text">Оставьте заявку ниже и получите <span class="block-text-yellow">3-х месячную</span> аренду
-       платформы TrafficWave и 500 потенциальных клиентов
-       <span class="block-text-yellow">бесплатно!</span></p>
-       <form class="form" id="trafficwave_form">
-         <div class="field-wrapper">
-           <input type="text" placeholder="Имя*" id="full_name" />
-         </div>
-         <div class="field-wrapper">
-           <input type="text" placeholder="Телефон*" id="phone" />
-         </div>
-         <div class="btn-wrapper">
-           <button type="submit">Оставить заявку</button>
-         </div>
-       </form>
-     </section>
+        <main class="main_container">
+            <div class="content_container">
+                <section class="left_block box-size-container">
+                    <span class="head_text caps">мечтаете о стабильном притоке клиентов?</span>
+                    <p class="left_block-text">Оставьте заявку ниже и получите <span class="block-text-yellow">3-х
+                            месячную</span> аренду
+                        платформы TrafficWave и 500 потенциальных клиентов
+                        <span class="block-text-yellow">бесплатно!</span></p>
+                    <form class="form" id="trafficwave_form">
+                        <div class="field-wrapper">
+                            <input type="text" placeholder="Имя*" id="full_name" />
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="text" placeholder="Телефон*" id="phone" />
+                        </div>
+                        <div class="btn-wrapper">
+                            <button type="submit">Оставить заявку</button>
+                        </div>
+                    </form>
+                </section>
 
-     <section class="right_block box-size-container">
-         <img src="img/laptop.png" alt="laptop" class="laptop animated flipInY slow">
-     </section>
-   </div>
- </main>
-</div>
+                <section class="right_block box-size-container">
+                    <img src="img/laptop.png" alt="laptop" class="laptop animated flipInY slow">
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"
-></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="mask.js"></script>
 <script type="text/javascript">
-  // Change #trafficwave_form with your form id
-  // Change #id of fields to your form fields
-  $("#trafficwave_form").submit(function(event) {
-    var data = {
-      uuid: "6881cadd-a0cb-4a6e-8a37-11734f923d39",
-      info: {},
-      url: window.location.href,
-      comment: ""
-    };
-    var fields = [
-      { request_key: "full_name", form_id: "#full_name" },
-      { request_key: "phone", form_id: "#phone" }
-    ];
-    for (var i = 0; i < fields.length; i++) {
-      data["info"][fields[i].request_key] = $(fields[i].form_id).val();
-    }
-    $.ajax({
-      type: "POST",
-      url: "https://api.trafficwave.kz/core/fin_institute/lead/add/",
-      contentType: "application/json",
-      data: JSON.stringify(data),
-      success: function(result) {
-        console.log(result);
-      },
-      dataType: "json"
+    // Change #trafficwave_form with your form id
+    // Change #id of fields to your form fields
+    $("#trafficwave_form").submit(function (event) {
+        var data = {
+            uuid: "6881cadd-a0cb-4a6e-8a37-11734f923d39",
+            info: {},
+            url: window.location.href,
+            comment: ""
+        };
+        var fields = [
+            { request_key: "full_name", form_id: "#full_name" },
+            { request_key: "phone", form_id: "#phone" }
+        ];
+        for (var i = 0; i < fields.length; i++) {
+            data["info"][fields[i].request_key] = $(fields[i].form_id).val();
+        }
+        $.ajax({
+            type: "POST",
+            url: "https://api.trafficwave.kz/core/fin_institute/lead/add/",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function (result) {
+                console.log(result);
+            },
+            dataType: "json"
+        });
+        event.preventDefault();
     });
-    event.preventDefault();
-  });
+
+    $(":input").inputmask();
+    $("#phone").inputmask({ "mask": "+7 (999) 999-99-99" });
 </script>
+
 </html>
