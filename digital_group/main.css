@@ -1,0 +1,369 @@
+/*Основные параметры и обнуления*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.box-size-container {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_headline{
+  display: none;
+}
+
+.content_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.caps{
+  text-transform: uppercase;
+}
+/*-------------------------------------------*/
+
+.body{
+  height: 100vh;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body_mask{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(294deg,rgba(8, 64, 107, 0.95), rgba(80, 165, 235, 0.95));
+  overflow: auto;
+}
+
+.main_container{
+
+}
+
+/*Шапка*/
+
+.header{
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.logo{
+  width: 148px;
+  height: 68px;
+}
+
+/*-------------------------------------------*/
+
+/*левый блок*/
+
+.left_block{
+  width: 50%;
+  height: auto;
+  color: #ffffff;
+}
+
+.head_text{
+  font-size: 34px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left_block-text{
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.block-text-yellow{
+    color: #ffd700;
+}
+
+  /*форма заявки*/
+
+  .form {
+      width: 50%;
+      text-align: center;
+  }
+
+  .field-wrapper input {
+      border: none;
+      border-color: #e3e3e3;
+      background-color: rgba(255, 255, 255, 1);
+      padding: 0 10px;
+      border-radius: 30px;
+      width: 100%;
+      height: 40px;
+      font-size: 15px;
+      margin-bottom: 20px;
+  }
+
+  .btn-wrapper button {
+      background: transparent;
+      color: #ffffff;
+      padding: 15px 30px;
+      border: 1px solid #FFFFFF;
+      font-size: 18px;
+      border-radius: 30px;
+      margin-top: 10px;
+  }
+
+
+  /*-------------------------------------------*/
+
+
+/*-------------------------------------------*/
+
+/*правый блок*/
+
+.right_block{
+  width: 50%;
+  height: auto;
+}
+
+.laptop{
+  width: 45vw;
+}
+
+/*-------------------------------------------*/
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header{
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 88px;
+        height: 38px;
+        margin: auto;
+    }
+
+    .left_block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .head_text {
+        font-size: 18px;
+    }
+
+    .left_block-text {
+        font-size: 16px;
+    }
+
+    .right_block {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .laptop{
+      width: 100%;
+      height: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .field-wrapper input {
+        font-size: 10px;
+        height: 20px;
+        width: 80%;
+    }
+
+    .btn-wrapper button {
+        font-size: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    body {
+        text-align: center;
+    }
+
+
+    .header {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 88px;
+        height: 38px;
+        margin: auto;
+    }
+
+    .content_container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .head_text {
+        font-size: 18px;
+    }
+
+    .left_block-text {
+        font-size: 16px;
+    }
+
+    .right_block {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .laptop{
+      width: 100%;
+      height: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .field-wrapper input {
+        font-size: 10px;
+        height: 20px;
+        width: 80%;
+    }
+
+    .btn-wrapper button {
+        font-size: 10px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    body {
+        text-align: center;
+    }
+
+    .header{
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 88px;
+        height: 38px;
+        margin: auto;
+    }
+
+    .content_container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .head_text {
+        font-size: 18px;
+    }
+
+    .left_block-text {
+        font-size: 16px;
+    }
+
+    .right_block {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .laptop{
+      width: 100%;
+      height: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .field-wrapper input {
+        font-size: 10px;
+        height: 20px;
+        width: 80%;
+    }
+
+    .btn-wrapper button {
+        font-size: 10px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
