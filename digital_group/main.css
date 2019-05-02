@@ -1,4 +1,20 @@
+/* Fonts */
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
 /*Основные параметры и обнуления*/
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
 
 * {
   padding: 0;
@@ -47,6 +63,7 @@ html {
   background-image: url(img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: roboto, sans-serif;
 }
 
 .body_mask {
@@ -58,7 +75,6 @@ html {
     rgba(8, 64, 107, 0.95),
     rgba(80, 165, 235, 0.95)
   );
-  overflow: auto;
 }
 
 .main_container {
@@ -86,6 +102,7 @@ html {
   width: 50%;
   height: auto;
   color: #ffffff;
+  /* margin-top: 30px; */
 }
 
 .head_text {
@@ -159,10 +176,21 @@ html {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .body_mask {
+    overflow: auto;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .body_mask {
+    overflow: auto;
+  }
+
+  body {
+      text-align: center;
+  }
+
   .header {
     margin-bottom: 20px;
   }
@@ -182,6 +210,7 @@ html {
 
   .head_text {
     font-size: 18px;
+    font-family: roboto-bold, sans-serif;
   }
 
   .left_block-text {
@@ -216,6 +245,9 @@ html {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .body_mask {
+    overflow: auto;
+  }
   body {
     text-align: center;
   }
@@ -280,6 +312,10 @@ html {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
+  .body_mask {
+    overflow: auto;
+  }
+
   body {
     text-align: center;
   }
