@@ -474,6 +474,23 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  .attarction-container {
+    padding: 76px 32px 58px;
+  }
+
+  .attarction-container-row-2,
+  .attarction-container-row-3 {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+
+  .row-3-p {
+    margin: 0;
+  }
+
+  .col-2-1 {
+    margin: 0 64px 0 125px;
+  }
 }
 
 /* Medium Devices, Desktops */
