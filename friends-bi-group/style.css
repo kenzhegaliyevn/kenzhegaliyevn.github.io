@@ -656,7 +656,7 @@ body {
   .col-2-2 {
     background-image: url("./img/Group\ 4.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   
 }

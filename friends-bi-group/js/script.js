@@ -34,11 +34,19 @@ $(document).ready(function () {
       contentType: "application/json",
       url: "https://sms.bi.group/testpromo/api/client/register",
       data: JSON.stringify(data),
-      success: function () {
-        $(".content-form").addClass("none-display");
-        $(".content-form").removeClass("show");
-        $(".finish").removeClass("none-display");
-        $(".finish").addClass("show");
+      success: function (result) {
+        if (result.success == false) {
+          $(".error h2").text(result.message);
+          $(".content-form").addClass("none-display");
+          $(".content-form").removeClass("show");
+          $(".error").removeClass("none-display");
+          $(".error").addClass("show");
+        } else {
+          $(".content-form").addClass("none-display");
+          $(".content-form").removeClass("show");
+          $(".finish").removeClass("none-display");
+          $(".finish").addClass("show");
+        }
       },
     });
     e.preventDefault();
@@ -56,7 +64,8 @@ $(document).ready(function () {
   $("#share").jsSocials({
     showLabel: false,
     showCount: false,
-    text: "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
+    text:
+      "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
     shares: ["whatsapp", "telegram", "messenger"],
   });
 
