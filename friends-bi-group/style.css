@@ -583,11 +583,46 @@ body {
 
   .modal-content {
     width: 70%;
-  }  
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .row-2-h {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .btn-promo {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+  .attarction-container {
+    padding: 16px;
+  }
+
+  .attarction-container h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .row-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .attarction-container-row-1-image,
+  .attarction-container-row-2-image,
+  .attarction-container-row-3-image {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .col-2 {
+    padding-left: 64px;
+  }
 }
 
 /* Custom, iPhone Retina */
@@ -729,8 +764,8 @@ body {
 
   .form-item input {
     padding: 8px 16px;
-    font-size: 12px;  
-    margin-bottom: 16px;  
+    font-size: 12px;
+    margin-bottom: 16px;
   }
 
   .modal-content p,

@@ -25,15 +25,19 @@ $(document).ready(function () {
     const fullname = $("input[name=fullname]").val();
     const phone = $("input[name=phone]").val().replace(/ /g, "");
     const data = {
-      'iin': iin,
-      'fullName': fullname,
-      'phone': phone,
+      iin: iin,
+      fullName: fullname,
+      phone: phone,
     };
     $.ajax({
       type: "POST",
+      headers: {
+        "Access-Control-Allow-Origin": "http://The web site allowed to access",
+      },
       url: "https://sms.bi.group/testpromo/api/client/register",
       data: data,
-      dataType: "JSON",
+      crossDomain: true,
+      dataType: "jsonp",
       success: function () {
         $(".content-form").addClass("none-display");
         $(".content-form").removeClass("show");
