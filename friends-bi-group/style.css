@@ -689,7 +689,6 @@ body {
   .footer div:nth-child(2) {
     display: flex;
     align-items: center;
-
   }
 
   .btn-condition {
@@ -708,7 +707,7 @@ body {
 
   .row-3 {
     background: none;
-  }  
+  }
 }
 
 /* Extra Small Devices, Phones */

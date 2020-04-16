@@ -50,7 +50,9 @@ $(document).ready(function () {
       data: JSON.stringify(data),
       success: function (result) {
         if (result.success == false) {
-          $(".error h2").text("Клиент с таким ИИН или номером телефона уже участвует в программе BI Friends!");
+          $(".error h2").text(
+            "Клиент с таким ИИН или номером телефона уже участвует в программе BI Friends!"
+          );
           $(".content-form").addClass("none-display");
           $(".content-form").removeClass("show");
           $(".error").removeClass("none-display");
@@ -88,58 +90,57 @@ $(document).ready(function () {
     $("#phone").mask("8 999 999 99 99");
   });
 
-  $('input[name=iin][max]:not([max=""])').on('input', function(ev) {
+  $('input[name=iin][max]:not([max=""])').on("input", function (ev) {
     var $this = $(this);
-    var maxlength = $this.attr('max').length;
+    var maxlength = $this.attr("max").length;
     var value = $this.val();
     if (value && value.length >= maxlength) {
       $this.val(value.substr(0, maxlength));
     }
   });
 
-  $("input[name=iin]").bind(
-    "keyup",
-    function () {
-      const iin = $("input[name=iin]").val().replace(/ /g, "");
-      const fullname = $("input[name=fullname]").val().replace(/ /g, "");
-      const phone = $("input[name=phone]").val().replace(/ /g, "").replace(/_/g, "");
+  $("input[name=iin]").bind("keyup", function () {
+    const iin = $("input[name=iin]").val().replace(/ /g, "");
+    const fullname = $("input[name=fullname]").val().replace(/ /g, "");
+    const phone = $("input[name=phone]")
+      .val()
+      .replace(/ /g, "")
+      .replace(/_/g, "");
 
-      if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
-        $("#submit").prop("disabled", false);
-      } else {
-        $("#submit").prop("disabled", true);
-      }
+    if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
+      $("#submit").prop("disabled", false);
+    } else {
+      $("#submit").prop("disabled", true);
     }
-  );
+  });
 
-  $("input[name=fullname]").bind(
-    "keyup",
-    function () {
-      const iin = $("input[name=iin]").val().replace(/ /g, "");
-      const fullname = $("input[name=fullname]").val().replace(/ /g, "");
-      const phone = $("input[name=phone]").val().replace(/ /g, "").replace(/_/g, "");
+  $("input[name=fullname]").bind("keyup", function () {
+    const iin = $("input[name=iin]").val().replace(/ /g, "");
+    const fullname = $("input[name=fullname]").val().replace(/ /g, "");
+    const phone = $("input[name=phone]")
+      .val()
+      .replace(/ /g, "")
+      .replace(/_/g, "");
 
-      if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
-        $("#submit").prop("disabled", false);
-      } else {
-        $("#submit").prop("disabled", true);
-      }
+    if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
+      $("#submit").prop("disabled", false);
+    } else {
+      $("#submit").prop("disabled", true);
     }
-  );
+  });
 
-  $("input[name=phone]").bind(
-    "keyup",
-    function () {
-      const iin = $("input[name=iin]").val().replace(/ /g, "");
-      const fullname = $("input[name=fullname]").val().replace(/ /g, "");
-      const phone = $("input[name=phone]").val().replace(/ /g, "").replace(/_/g, "");
+  $("input[name=phone]").bind("keyup", function () {
+    const iin = $("input[name=iin]").val().replace(/ /g, "");
+    const fullname = $("input[name=fullname]").val().replace(/ /g, "");
+    const phone = $("input[name=phone]")
+      .val()
+      .replace(/ /g, "")
+      .replace(/_/g, "");
 
-      if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
-        $("#submit").prop("disabled", false);
-      } else {
-        $("#submit").prop("disabled", true);
-      }
+    if (iin.length === 12 && fullname.length !== 0 && phone.length === 11) {
+      $("#submit").prop("disabled", false);
+    } else {
+      $("#submit").prop("disabled", true);
     }
-  );
-
+  });
 });
