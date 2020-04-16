@@ -1,4 +1,30 @@
 $(document).ready(function () {
+  $("div.shareThis").simpleSocialShare({
+    sites: "whatsapp,facebook,telegram",
+    url: "http://www.google.com",
+    title: "Google",
+    description: "Father of the Internet",
+    image:
+      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    shareType: "none",
+    triggerButtonActiveState: true,
+    // buttonSide: "left",
+    orientation: "horizontal",
+  });
+
+  // // For vertical with no button or text specifying sharing
+  // $("div.shareThis").simpleSocialShare({
+  //   sites: "twitter,google,facebook",
+  //   url: "http://www.google.com",
+  //   title: "Google",
+  //   description: "Father of the Internet",
+  //   image:
+  //     "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+  //   shareType: "none",
+  //   buttonSide: "right",
+  //   orientation: "vertical",
+  // });
+
   $(window).scroll(function () {
     if ($(this).scrollTop()) {
       $("#toTop").fadeIn();
