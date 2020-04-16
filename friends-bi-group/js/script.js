@@ -81,13 +81,26 @@ $(document).ready(function () {
     $("body").toggleClass("hidden");
   });
 
+  // $(".social-likes").socialLikes({
+  //   url: "https://github.com/sapegin/social-likes/",
+  //   title: "Beautiful “like” buttons with counters for popular social networks",
+  //   counters: true,
+  //   singleTitle: "Share it!",
+  // });
+
   $("#share").jsSocials({
     showLabel: false,
     showCount: false,
-    text:
-      "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
-    media: "https://images.app.goo.gl/s9tmRxoFbsnFy2qR6",
-    shares: ["whatsapp", "telegram", "messenger"],
+    shares: [
+      {
+        share: "telegram",
+        media: "https://friends.bi.group/test/image_promo.jpg",
+        url: "https://friends.bi.group/test/image_promo.jpg",
+      }
+      // "whatsapp",
+      // "telegram",
+      // "messenger",
+    ],
   });
 
   $(function () {
