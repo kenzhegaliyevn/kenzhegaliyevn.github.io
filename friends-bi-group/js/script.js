@@ -23,15 +23,16 @@ $(document).ready(function () {
     $("input[name=iin]").val("");
     $("input[name=fullname]").val("");
     $("input[name=phone]").val("");
+    $("body").toggleClass("hidden");
 
-    if (
-      document.body.style.overflowY === "" ||
-      document.body.style.overflowY === "scroll"
-    ) {
-      document.body.style.overflowY = "hidden";
-    } else {
-      document.body.style.overflowY = "scroll";
-    }
+    // if (
+    //   document.body.style.overflowY === "" ||
+    //   document.body.style.overflowY === "scroll"
+    // ) {
+    //   document.body.style.overflowY = "hidden";
+    // } else {
+    //   document.body.style.overflowY = "scroll";
+    // }
   });
 
   $("#submit").on("click", function (e) {
@@ -75,6 +76,9 @@ $(document).ready(function () {
     $(".content-form").addClass("show");
     $(".finish").addClass("none-display");
     $(".finish").removeClass("show");
+    $(".error").addClass("none-display");
+    $(".error").removeClass("show");
+    $("body").toggleClass("hidden");
   });
 
   $("#share").jsSocials({
