@@ -96,6 +96,13 @@ $(document).ready(function () {
         share: "telegram",
         media: "https://friends.bi.group/test/image_promo.jpg",
         url: "https://friends.bi.group/test/image_promo.jpg",
+        text: "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)"
+      },
+      {
+        share: "whatsapp",
+        media: "https://friends.bi.group/test/image_promo.jpg",
+        url: "https://friends.bi.group/test/image_promo.jpg",
+        text: "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)"
       }
       // "whatsapp",
       // "telegram",
