@@ -43,7 +43,7 @@ $(document).ready(function () {
       success: function (result) {
         if (result.success == false) {
           $(".error h2").text(
-            "Клиент с таким ИИН или номером телефона уже участвует в программе BI Friends!"
+            "Клиент с таким ИИН или номером телефона уже зарегистрирован!"
           );
           $(".content-form").addClass("none-display");
           $(".content-form").removeClass("show");
