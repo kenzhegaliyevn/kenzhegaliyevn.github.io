@@ -1,30 +1,4 @@
 $(document).ready(function () {
-  $("div.shareThis").simpleSocialShare({
-    sites: "whatsapp,facebook,telegram",
-    url: "http://www.google.com",
-    title: "Google",
-    description: "Father of the Internet",
-    image:
-      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-    shareType: "none",
-    triggerButtonActiveState: true,
-    // buttonSide: "left",
-    orientation: "horizontal",
-  });
-
-  // // For vertical with no button or text specifying sharing
-  // $("div.shareThis").simpleSocialShare({
-  //   sites: "twitter,google,facebook",
-  //   url: "http://www.google.com",
-  //   title: "Google",
-  //   description: "Father of the Internet",
-  //   image:
-  //     "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-  //   shareType: "none",
-  //   buttonSide: "right",
-  //   orientation: "vertical",
-  // });
-
   $(window).scroll(function () {
     if ($(this).scrollTop()) {
       $("#toTop").fadeIn();
@@ -50,15 +24,6 @@ $(document).ready(function () {
     $("input[name=fullname]").val("");
     $("input[name=phone]").val("");
     $("body").toggleClass("hidden");
-
-    // if (
-    //   document.body.style.overflowY === "" ||
-    //   document.body.style.overflowY === "scroll"
-    // ) {
-    //   document.body.style.overflowY = "hidden";
-    // } else {
-    //   document.body.style.overflowY = "scroll";
-    // }
   });
 
   $("#submit").on("click", function (e) {
@@ -107,20 +72,13 @@ $(document).ready(function () {
     $("body").toggleClass("hidden");
   });
 
-  // $(".social-likes").socialLikes({
-  //   url: "https://github.com/sapegin/social-likes/",
-  //   title: "Beautiful “like” buttons with counters for popular social networks",
-  //   counters: true,
-  //   singleTitle: "Share it!",
-  // });
-
   $("#share").jsSocials({
     showLabel: false,
     showCount: false,
+    media: "https://friends.bi.group/test/image_promo.jpg",
     shares: [
       {
         share: "telegram",
-        // media: "https://friends.bi.group/test/image_promo.jpg",
         text:
           "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
       },
