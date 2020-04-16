@@ -45,6 +45,10 @@ body {
   align-items: center;
 }
 
+.col-1 {
+  margin-left: 60px;
+}
+
 .phone-link {
   text-decoration: none;
   color: #000;
@@ -71,7 +75,7 @@ body {
   background-image: url("./img/Group\ 7.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 800px;
+  width: 50%;
   height: 394px;
 }
 
@@ -90,10 +94,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: Ptrootuibold;
-  font-style: normal;
-  font-weight: bold;
   font-size: 42px;
   line-height: 53px;
+  margin-top: 56px;
+  padding-left: 45px;
+}
+
+.col-2-1-wrapper {
+  margin-top: 62px;
+  display: flex;
+}
+
+.col-2-1-wrapper .icon-container:nth-child(1) {
+  margin-right: 10px;
+}
+
+.col-2-1-wrapper .icon-container:nth-child(2) {
+  margin-left: 10px;
 }
 
 .btn-promo {
@@ -143,8 +160,8 @@ body {
 }
 
 .row-3-content {
-  margin-left: 165px;
-  margin-right: 165px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 64px;
   padding-bottom: 68px;
 }
@@ -166,12 +183,18 @@ body {
   background-color: #a1daf8;
   position: absolute;
   left: 47%;
-  top: 115%;
+  top: 125%;
 }
 
 .row-3-p {
+  width: 50%;
   text-align: center;
   color: #575759;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 56px;
+  font-size: 21.875px;
+  line-height: 26px;
 }
 
 .wrapper {
@@ -205,6 +228,7 @@ body {
 
 .icon-container {
   text-align: center;
+  width: 50%;
 }
 
 .icon-container p {
@@ -243,14 +267,14 @@ body {
 }
 
 .attarction-container-row-2 {
+  margin: 0 auto;
   margin-top: 60px;
-  margin-left: 64px;
-  margin-right: 64px;
 }
 
 .attarction-container-row-2 .attarction-container-content-wrapper {
   margin-left: 32px;
   margin-right: 32px;
+  width: 40%;
 }
 .attarction-container-row-3 {
   margin-top: 43px;
@@ -516,14 +540,9 @@ body {
     font-size: 24px;
   }
 
-  .attarction-container-row-2,
   .attarction-container-row-3 {
     margin-left: 128px;
     margin-right: 128px;
-  }
-
-  .row-3-p {
-    margin: 0;
   }
 
   .col-2-1 {
@@ -582,11 +601,6 @@ body {
     width: 240px;
   }
 
-  .row-2-h {
-    font-size: 16px;
-    line-height: 27px;
-  }
-
   .btn-condition {
     width: 240px;
   }
@@ -595,12 +609,31 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .row-1 {
-    margin: 38px 43px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+
+  .col-1 {
+    margin: 0;
+  }
+  .col-2-1-wrapper {
+    justify-content: center;
+  }
+
+  .row-2-h {
+    font-size: 42px;
+    line-height: 53px;
   }
 
   .attarction-container-row-2 .attarction-container-content-wrapper {
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
+  }
+
+  .attarction-container-content-wrapper {
+    margin-bottom: 39px;
   }
 
   .phone-number {
@@ -637,7 +670,7 @@ body {
   }
 
   .row-3-p {
-    margin: 0;
+    width: 70%;
   }
 
   .wrapper-p {
@@ -650,6 +683,7 @@ body {
   }
 
   .attarction-container-row {
+    width: 80%;
     flex-direction: column;
   }
 
@@ -664,8 +698,10 @@ body {
     margin: auto;
   }
 
-  .attarction-container-content-wrapper {
-    margin-bottom: 39px;
+  .attarction-container-row-1-text,
+  .attarction-container-row-2-text,
+  .attarction-container-row-3-text {
+    width: 40%;
   }
 
   .attarction-container-row-1-number,
@@ -710,13 +746,32 @@ body {
   .row-3 {
     background: none;
   }
+
+  .col-1 {
+    width: 80%;
+  }
+
+  .col-2 {
+    width: 20%;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .icon-container p {
+    font-size: 14px;
+  }
+
+  .col-2-1-wrapper {
+    margin-top: 32px;
+  }
+
   .row-2-h {
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 35px;
   }
   .btn-promo {
     padding: 12px 32px;
@@ -737,6 +792,13 @@ body {
   .row-3 {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .attarction-container-row-1-text,
+  .attarction-container-row-2-text,
+  .attarction-container-row-3-text {
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .attarction-container-row-1-image,
@@ -805,6 +867,41 @@ body {
   .footer {
     text-align: left;
   }
+
+  .row-3 h2 {
+    font-size: 21.875px;
+    line-height: 26px;
+  }
+
+  .row-3 h2:after {
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .row-3-p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 46px;
+  }
+
+  .col-1 {
+    margin: 0;
+    padding: 0;
+    width: 55%;
+  }
+
+  .col-2 {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+  }
+
+  .attarction-container-row {
+    margin-top: 42px;
+    width: 100%;
+  }
 }
 
 /* Custom, iPhone Retina */
@@ -855,7 +952,7 @@ body {
 
   .col-2-2 {
     margin-top: 32px;
-    width: 320px;
+    width: 100%;
     height: 182px;
   }
 
