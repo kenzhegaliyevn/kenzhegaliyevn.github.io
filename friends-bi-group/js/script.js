@@ -72,33 +72,33 @@ $(document).ready(function () {
     $("body").toggleClass("hidden");
   });
 
-  $("#share").jsSocials({
-    showLabel: false,
-    showCount: false,
-    media: "https://friends.bi.group/test/image_promo.jpg",
-    text:
-      "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
-    shares: [
-      "telegram",
-      "whatsapp",
-      "messenger",
-      // {
-      //   share: "telegram",
-      // },
-      // {
-      //   share: "whatsapp",
-      //   media: "https://friends.bi.group/test/image_promo.jpg",
-      //   text:
-      //     "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
-      // },
-      // {
-      //   share: "messenger",
-      //   media: "https://friends.bi.group/test/image_promo.jpg",
-      //   text:
-      //     "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
-      // },
-    ],
-  });
+  // $("#share").jsSocials({
+  //   showLabel: false,
+  //   showCount: false,
+  //   media: "https://friends.bi.group/test/image_promo.jpg",
+  //   text:
+  //     "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
+  //   shares: [
+  //     "telegram",
+  //     "whatsapp",
+  //     "messenger",
+  //     // {
+  //     //   share: "telegram",
+  //     // },
+  //     // {
+  //     //   share: "whatsapp",
+  //     //   media: "https://friends.bi.group/test/image_promo.jpg",
+  //     //   text:
+  //     //     "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
+  //     // },
+  //     // {
+  //     //   share: "messenger",
+  //     //   media: "https://friends.bi.group/test/image_promo.jpg",
+  //     //   text:
+  //     //     "Дорогой друг! Не упусти шанс воспользоваться выгодным предложением от компании BI Group! Успей купить недвижимость по промокоду со скидкой 900 000 тенге! Выбери свой жилой комплекс на сайте bi.group или по ссылке https://friends.bi.group/catalog.pdf А также узнай о последних событиях в Instagram или fb @bi.group Заявку на онлайн-консультацию можно оставить на сайте компании или по номеру 360 (звонок бесплатный)",
+  //     // },
+  //   ],
+  // });
 
   $(function () {
     $("#phone").mask("8 999 999 99 99");
@@ -155,6 +155,20 @@ $(document).ready(function () {
       $("#submit").prop("disabled", false);
     } else {
       $("#submit").prop("disabled", true);
+    }
+  });
+
+  $("input[name=fullname]").keypress(function (event) {
+    var inputValue = event.charCode;
+    if (
+      !(
+        (inputValue > 64 && inputValue < 91) ||
+        (inputValue > 96 && inputValue < 123) ||
+        inputValue == 32 ||
+        inputValue == 0
+      )
+    ) {
+      event.preventDefault();
     }
   });
 });
